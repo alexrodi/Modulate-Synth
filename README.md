@@ -4,7 +4,7 @@ Modulate! is a modular Max/MSP patch that aims to be a close aproximation (techn
 
 This patch is built and tested on Max 7 running on OSX
 
-The folder includes:
+The folder includes:  
 Bin folder - All the patches and dependencies  
 Readme file  
 Century Gothic font for OSX (install this first!)  
