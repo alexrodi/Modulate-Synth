@@ -64,6 +64,7 @@
 <separator>,;
 "VCA ", VCA 1 540 268 82 0;
 "Dual VCA", DVCA 1 540 268 32 0;
+"Low-Pass Gate", LowPassGate 1 540 268 82 0;
 "CV Panner", Panner 1 540 268 66 0;
 "Mixer ", Mixer 1 540 268 82 0;
 "Console Mixer", ConsoleMixer 1 270 808 222 0;
