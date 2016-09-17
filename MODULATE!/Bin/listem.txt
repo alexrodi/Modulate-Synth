@@ -44,6 +44,7 @@
 "Quad Decay", Decay 1 540 268 56 0;
 "Bouncing CV", CVBounce 1 540 268 56 0;
 "CV Sequencer", CVSeq 1 540 268 110 0;
+"Drum Sequencer", DrumSeq 1 540 268 194 0;
 "Graphic Step", Gstep 1 540 268 138 0;
 "Graphic Sequencer", Gseq 1 540 268 190 0;
 "Joy Stick", JoyStick 1 540 268 78 0;
