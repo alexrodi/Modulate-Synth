@@ -1,0 +1,89 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 CenturyGothic;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13180\viewh11360\viewkind1
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 The Drum Sequencer module performs the standard drum machine operations like multi-channel sequencing of variable length but also has some added rhythm effects.\
+\
+Most sequencers output triggers but this one, to save a step, has built-in  envelope generators that are percussion-optimized (logarithmic attack and exponential decay) so that the outputs can be patched straight in to VCAs, VCFs, etc\'85 non the less, they can still be used as triggers.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 Channel Parameters\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 The module features 4 different channels with 8 parameters each, these parameters share the same knobs for all channels and are editable by choosing the channel being edited in the top channel buttons.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f1 \cf0 {{\NeXTGraphic Captura de ecrã 2016-09-18, às 15.04.24.png \width3580 \height400
+}�}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 - Length - the length of the sequence. (1 - 32 steps)\
+\
+- Random - randomize the steps.\
+\
+- Decay - the decay time of the envelope. (1 - 1000 ms)\
+\
+- Shift - shift the sequence forward by increments of a step. (0 - 1 step)\
+\
+- Swing - shift every other step by increments of a step. (0 - 31/32 of a step)\
+\
+- Repeat - the interval and number of consecutive envelopes triggered by a single step, the knob chooses between these divisions:\
+\
+Interval    n\'ba of env\'92s\
+1                     1\
+2/3                 2\
+1/2                 2\
+1/3                 3\
+1/4                 4\
+1/6                 6\
+1/8                 8\
+1/16              16\
+\
+- Chance - this knob controls the probability of a step being added (if it\'92s inactive) or ignored (if it\'92s active). It ranges from 0 to 100 %, this means that if the knob is all the way up, there is a 100% chance of a step being altered, effectively inverting the sequence.\
+\
+\
+- Chaos - generates random steps at random intervals, as the knob increases, the generated steps occur more often and at shorter intervals. These steps are quantized, meaning they will always occur in sync with a division of the clock.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 Mutes\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+The \'93Mute\'94 section mutes each channel by stopping the triggers, meaning, no envelope is ever cut short.\
+\
+Note: this is also very useful when using, for example, a reverb to process the sound, by muting the envelope, the reverb is never muted half-way, so the tail remains after the (input) sound has stopped.\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 Clock\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+This module has no need for a trigger because it features its own clock set in BPM (top right corner). It can also divide the tempo (1/division) and do a triplet note (t) or dotted note (.)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f1 \cf0 {{\NeXTGraphic Captura de ecrã 2016-09-18, às 15.05.44.png \width1360 \height1400
+}�}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 \
+When the clock is not turned on, the module is set to Link mode\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f1 \cf0 {{\NeXTGraphic Captura de ecrã 2016-09-18, às 15.10.07.png \width660 \height360
+}�}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 In Link mode, the module accepts a connection in the right-most inlet from another Drum Sequencer\'92s right-most outlet (whose clock is turned On). This connection runs the module in sync with the connected Drum Sequencer, making it possible to have several modules connected to one, all in synced to one main clock. \
+\
+Note: The Link output is different from the \'93clock\'94 output, which is a normal trigger (square wave), so it can also synchronize other modules}
