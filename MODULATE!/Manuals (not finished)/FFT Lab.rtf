@@ -6,7 +6,7 @@
 
 \f0\fs24 \cf0 The FFT Lab module provides the basic tools in an FFT analysis: Frequency Filter, Amplitude Filter and Amplitude and Phase Convolution.\
 \
-A little about FFT - An FFT filter is different from a usual filter because it it based on an analysis of the sound (therefore it has a delay of 512 samples in this case) and because of that, unlike a function it can isolate frequencies far better than a normal filter, and that goes for amplitude too, that\'92s why this module features an Amplitude Filter that isolates amplitudes on the spectrum, meaning it\'92s possible to pick a specific range of amplitude outputting only the frequencies that are on that range.\
+A little about FFT - An FFT filter is different from a usual filter because it it based on an analysis of the sound (therefore it has a delay of 512 samples in this case) and because of that, unlike a function it can isolate frequencies far better than a normal filter, and that goes for amplitude too, that\'92s why this module features an Amplitude Filter that isolates amplitudes on the spectrum, meaning it\'92s possible to pick a specific range of amplitudes, outputting only the frequencies that have those amplitudes.\
 \
 \
 The module features the following parameters:\
@@ -17,11 +17,11 @@ FILTERS\
 \
 Freq Filter Center - Sets the center bin (frequency) of the filter (range 0Hz - 22100Hz).\
 \
-Freq Filter Band - Sets the range of the filter, and it ranges from 1 bin up to 2048 bins (which is equivalent to the entire spectrum) each way from the center, this means that if this knob is fully CW, the center knob can be at an extremity and the filter will still be open for all frequencies.\
+Freq Filter Band - Sets the range of the filter, and it ranges from 1 bin up to 2048 bins (which is equivalent to the entire spectrum) each way from the center, this means that if this knob is at maximum, the center knob can be at an extremity and the filter will still be open for all frequencies.\
 \
 Amp Filter Center - Sets the center amplitude of the filter.\
 \
-Amp Filter Band - Sets the range of the filter, ranges +/-0 to +/-1 (it\'b4s hard to say) each way from the center.\
+Amp Filter Band - Sets the range of the filter, ranges all amplitudes each way from the center.\
 \
 CONVOLVE\
 \
