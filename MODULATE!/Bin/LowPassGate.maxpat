@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 810.0, 239.0, 760.0, 653.0 ],
+		"rect" : [ 510.0, 113.0, 268.0, 82.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -88,7 +88,7 @@
 					"rounded" : 1.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[371]",
+							"parameter_longname" : "live.dial[362]",
 							"parameter_shortname" : "Res.",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
@@ -561,11 +561,11 @@
 , 											{
 												"name" : "Luca",
 												"default" : 												{
-													"fontname" : [ "Open Sans Semibold" ],
 													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+													"fontname" : [ "Open Sans Semibold" ],
+													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
@@ -1203,11 +1203,11 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"fontname" : [ "Open Sans Semibold" ],
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1336,7 +1336,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u507010695"
+					"varname" : "u955018039"
 				}
 
 			}
@@ -1595,7 +1595,7 @@
 					"presentation_rect" : [ 106.5, 21.875, 55.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[6]",
+							"parameter_longname" : "live.dial[287]",
 							"parameter_shortname" : "Amp/Freq",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
@@ -1701,7 +1701,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 391.0, 349.0, 19.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.125, 26.5625, 36.65625, 42.0625 ],
+					"presentation_rect" : [ 25.125, 27.71875, 36.65625, 38.28125 ],
 					"tracking" : 1
 				}
 
@@ -1854,30 +1854,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-4" : [ "live.dial[6]", "Amp/Freq", 0 ],
-			"obj-23" : [ "live.dial[371]", "Res.", 0 ],
-			"obj-129" : [ "live.tab", "live.tab", 0 ],
-			"obj-2" : [ "live.dial[63]", "Res.", 0 ],
-			"obj-5" : [ "live.dial[64]", "CV", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "bbronze.jpg",
-				"bootpath" : "~/MODULATE Repo/Modulate-Synth/MODULATE!/Bin",
-				"patcherrelativepath" : ".",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "switch_toggle.png",
-				"bootpath" : "~/MODULATE Repo/Modulate-Synth/MODULATE!/Bin",
-				"patcherrelativepath" : ".",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
- ],
-		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -1899,11 +1875,11 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"fontname" : [ "Open Sans Semibold" ],
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
