@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 CenturyGothic;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14040\viewh12840\viewkind1
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 The Rhythm Sequencer are two euclidian sequencers with pulse width and delay controls that work independently but also perform AND/OR operations.\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 The module works with a trigger that is fed into both sequencers.\
+\
+The Steps knob ranges from 1 to 16 steps, this is the length of the sequence.\
+\
+The Pulses knob controls how many steps are active in that sequence and its range is always from 1 to the Steps value.\
+\
+Ex: If Steps is set to the maximum and Pulses it at middle position, this configuration makes a sequence with 16 steps, 8 (16/2) of which are active.\
+\
+\
+PW - determines the pulse width of the active steps and ranges from 1/16th of a step to 1 step (in this case, adjacent active steps become joined)\
+\
+Delay - delays the whole sequence from 0 to 1 step\
+\
+\
+These two outputs relate the two sequences:\
+\
+A\uc0\u8800 B - outputs all triggers that don\'92t match up (exclusive OR operation)\
+\
+A=B - outputs only the triggers that match up (AND operation)}
