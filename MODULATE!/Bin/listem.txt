@@ -47,6 +47,7 @@
 "Drum Sequencer", DrumSeq 1 540 268 194 0;
 "Graphic Step", Gstep 1 540 268 138 0;
 "Graphic Sequencer", Gseq 1 540 268 190 0;
+"Arpeggiator ", ArpSeq 1 540 268 106 0;
 "Joy Stick", JoyStick 1 540 268 78 0;
 "Theremin ", Theremin 1 540 268 64 0;
 "Envelope Follower", EnvFollow 1 540 268 56 0;
