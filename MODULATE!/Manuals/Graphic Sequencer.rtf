@@ -1,0 +1,70 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 CenturyGothic;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12200\viewh10040\viewkind1
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 The Graphic Sequencer is all you need (and more) to have full control over a synth voice, from a graphical interface.\
+\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 The module expects a trigger signal in the input \'93Trig. In\'94, each trigger received advances the sequence by one step while a trigger in the \'93Res. In\'94 resets the sequence to the first step of the loop.\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 Interface\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+The length of the sequence is set in the \'93Steps\'94 box (1 - 64), but remember, this is only the maximum length, because the point at which the sequence starts and loops back can be defined with the black Loop bar on the top of the interface.\
+\
+The \'93Fold\'94 toggle lets you have the notes that are active in the sequence be the only ones displayed on the interface.\
+\
+The main interface lets you edit 5 different parameters and can show all of them at the same time, this is chosen in the \'93Edit\'94 menu in the bottom right corner:\
+\
+Show all - Shows pitch and all the parameters in the background and edits pitch\
+\
+Pitch - Shows and edits pitch\
+\
+Velocity - Shows and edits velocity\
+\
+Duration - Shows and edits duration\
+\
+Mod 1/2 - Shows and edits Mod1/2\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 Presets\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+In the bottom left corner there is a section to save and real presets within the module, the \'93Preset\'94 box (1 - 16).\
+\
+There is also an option of cycling through the presets automatically within a range (starting from 1) defined in the box next to the toggle button \'93Cycle\'94.\
+The cycling occurs after the last step of the loop, entering a new preset when it loops back.\
+\
+There are four options available for the type of cycling:\
+\
+Up - increments the preset number by 1 and loops back to the first one.\
+\
+Down - decrements the preset number and loops forward to the last one.\
+\
+U&D - increments the preset number until the last one, then starts decrementing until the first one and so on\'85\
+\
+Random - a preset is randomly chosen from those that have not been chosen once (it goes through all of them until one of them is repeated).\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 Outputs\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 The outputs of the module are regulated for their specific purpose:\
+\
+Pitch - midi 69 (A3) is 0, 1 is 5 octaves above and -1 is 5 octaves below\
+\
+Velocity - 0 to 1\
+\
+Duration - 16n (one step) is 1 and the rest are ratios, for example: 32n is 0.5 and 8n is 2\
+\
+Mod 1/2 - 0 to 1\
+\
+}

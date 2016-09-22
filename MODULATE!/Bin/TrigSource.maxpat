@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 540.0, 89.0, 706.0, 483.0 ],
+		"rect" : [ 1238.0, 467.0, 283.0, 56.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1135,7 +1135,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 293.948853, 477.0, 11.102347, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.75, 3.0, 11.102347, 15.0 ],
+					"presentation_rect" : [ 144.75, 3.0, 11.102347, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[2]",
@@ -1168,7 +1168,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 237.198853, 475.0, 64.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 93.0, 2.0, 64.0, 19.0 ],
+					"presentation_rect" : [ 89.0, 2.0, 64.0, 19.0 ],
 					"style" : "",
 					"text" : "1/",
 					"textjustification" : 1
@@ -1187,7 +1187,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 275.495728, 477.0, 16.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 131.296875, 3.0, 16.0, 15.0 ],
+					"presentation_rect" : [ 127.296875, 3.0, 16.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[4]",
@@ -1511,7 +1511,7 @@
 					"restore" : 					{
 						"live.numbox[3]" : [ 0.0 ],
 						"live.numbox[5]" : [ 0.0 ],
-						"live.numbox[6]" : [ 1.0 ],
+						"live.numbox[6]" : [ 500.0 ],
 						"live.numboxa[1]" : [ 120.0 ],
 						"live.text[2]" : [ 0.0 ],
 						"minus" : [ 0.0 ],
@@ -1520,7 +1520,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u704010513"
+					"varname" : "u780000439"
 				}
 
 			}
@@ -1903,13 +1903,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-118" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-127" : [ "live.text[11]", "live.text", 0 ],
 			"obj-67" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-120" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-94" : [ "live.text[93]", "live.text[9]", 0 ],
+			"obj-118" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-70" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-93" : [ "live.text[92]", "live.text[9]", 0 ]
+			"obj-127" : [ "live.text[11]", "live.text", 0 ],
+			"obj-93" : [ "live.text[92]", "live.text[9]", 0 ],
+			"obj-94" : [ "live.text[93]", "live.text[9]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1949,13 +1949,11 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1965,7 +1963,9 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1976,6 +1976,7 @@
 				"default" : 				{
 					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1984,8 +1985,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
