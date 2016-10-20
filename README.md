@@ -7,7 +7,7 @@ This patch is built and tested on Max 7 running on OSX
 The provided folder includes:  
 Bin folder - All the patches and dependencies  
 Readme file  
-Manuals folder - A manual file for each module (this is still in progress)  
+Manuals folder - A manual file for each module  
 Run Folder - This zipped folder contains the files to run the patch:  
 -Century Gothic font for OSX (install this first!)  
 -2 aliases: One with an example Patch (MODULATE!) and one where it showcases all of the modules (MODULATE! Showcase) - it is recommended to **use only one of them** (because they share the same preset file and midi mapping file)
