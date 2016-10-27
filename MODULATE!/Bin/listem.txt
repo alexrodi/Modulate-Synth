@@ -9,6 +9,7 @@
 "Resampler ", Resampler 1 540 268 122 0;
 "R303 ", R303 1 540 268 118 0;
 "Ripple VCO", RippleVCO 1 540 268 124 0;
+"Physics ", Physics 1 540 268 96 0;
 "Modal Synth", ModalBody 1 540 268 154 0;
 "Bass Drum", BassDrum 1 540 268 92 0;
 <separator>,;
