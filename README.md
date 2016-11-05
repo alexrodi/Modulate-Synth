@@ -5,7 +5,7 @@ Modulate! is a modular Max/MSP patch that aims to be a close aproximation (techn
 This patch is built and tested on Max 7 running on OSX
 
 The provided folder includes:  
--Install MODULATE.pkg - this installs all patches and dependencies  
+-Install MODULATE.pkg - this installs all patches and dependencies in Max's library  
 -Readme file  
 -Manuals folder - A manual file for each module  
 -2 MODULATE! patches: One with an example Patch (MODULATE!) and one where it showcases all of the modules (MODULATE! Showcase)  
