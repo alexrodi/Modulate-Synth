@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 45.0, 1280.0, 751.0 ],
+		"rect" : [ 0.0, 45.0, 1280.0, 751.0 ],
 		"bgcolor" : [ 0.395942, 0.420283, 0.456864, 1.0 ],
 		"editing_bgcolor" : [ 0.396078, 0.419608, 0.458824, 1.0 ],
 		"bglocked" : 0,
@@ -63,7 +63,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 687.0, 56.0, 100.0, 23.0 ],
+						"rect" : [ 686.0, 56.0, 100.0, 23.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -168,7 +168,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 166.0, 82.5, 29.5, 22.0 ],
 													"style" : "",
-													"text" : "0"
+													"text" : "36"
 												}
 
 											}
@@ -292,13 +292,6 @@
 , 											{
 												"name" : "Luca",
 												"default" : 												{
-													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-													"fontname" : [ "Open Sans Semibold" ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -308,7 +301,14 @@
 														"proportion" : 0.39,
 														"autogradient" : 0
 													}
-
+,
+													"fontname" : [ "Open Sans Semibold" ],
+													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 												}
 ,
 												"parentstyle" : "",
@@ -317,9 +317,6 @@
 , 											{
 												"name" : "dark-night-patch",
 												"default" : 												{
-													"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
-													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-													"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -328,7 +325,10 @@
 														"angle" : 270.0,
 														"proportion" : 0.39
 													}
-
+,
+													"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+													"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -364,8 +364,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -374,8 +374,8 @@
 , 											{
 												"name" : "newobjYellow-2",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -580,7 +580,7 @@
 									"fontname" : "Century Gothic",
 									"fontsize" : 12.0,
 									"id" : "obj-33",
-									"items" : [ "<separator>", ",", "(Audio Sources)", ",", "<separator>", ",", "External Audio", ",", "VCO ", ",", "Noise ", ",", "Wave Table", ",", "Sampler ", ",", "Resampler ", ",", "R303 ", ",", "Ripple VCO", ",", "Physics ", ",", "Modal Synth", ",", "Bass Drum", ",", "<separator>", ",", "(Effects)", ",", "<separator>", ",", "Compressor ", ",", "Ring Modulator", ",", "Dual S&H", ",", "Phazer ", ",", "Delay ", ",", "Stereo Delay", ",", "Echo&Shift ", ",", "Reverb ", ",", "Distort ", ",", "Waveshaper ", ",", "Moebius Tube", ",", "Grandma's Radio", ",", "<separator>", ",", "(Filters)", ",", "<separator>", ",", "Low-Pass VCF", ",", "Multi-Mode VCF", ",", "Ladder VCF", ",", "Comb VCF", ",", "VCRF ", ",", "Graphic Filter", ",", "Vocal Filter", ",", "FFT Lab", ",", "Video Filter", ",", "<separator>", ",", "(CV Stuff)", ",", "<separator>", ",", "VC LFO", ",", "VC ADSR", ",", "Quad Decay", ",", "Bouncing CV", ",", "CV Sequencer", ",", "Drum Sequencer", ",", "Graphic Step", ",", "Graphic Sequencer", ",", "Arpeggiator ", ",", "Joy Stick", ",", "Theremin ", ",", "Envelope Follower", ",", "MIDI to CV", ",", "<separator>", ",", "(Trigger Stuff)", ",", "<separator>", ",", "Trigger Source", ",", "Manual Trigger", ",", "Clock Divider", ",", "Clock Sequencer", ",", "Rhythm Sequencer", ",", "Random Trigger Gate", ",", "Trigger Delay", ",", "<separator>", ",", "(Other)", ",", "<separator>", ",", "VCA ", ",", "Dual VCA", ",", "Low-Pass Gate", ",", "CV Panner", ",", "Mixer ", ",", "Console Mixer", ",", "VST Loader", ",", "Dual Slew Limiter", ",", "Attenuator ", ",", "Math Operations", ",", "Analyzer ", ",", "Rack " ],
+									"items" : [ "<separator>", ",", "(Audio Sources)", ",", "<separator>", ",", "External Audio", ",", "VCO ", ",", "Noise ", ",", "Wave Table", ",", "Sampler ", ",", "Resampler ", ",", "R303 ", ",", "Ripple VCO", ",", "Morphing ", ",", "Physics ", ",", "Modal Synth", ",", "Bass Drum", ",", "<separator>", ",", "(Effects)", ",", "<separator>", ",", "Compressor ", ",", "Ring Modulator", ",", "Dual S&H", ",", "Phazer ", ",", "Delay ", ",", "Stereo Delay", ",", "Echo&Shift ", ",", "Reverb ", ",", "Distort ", ",", "Waveshaper ", ",", "Moebius Tube", ",", "Grandma's Radio", ",", "<separator>", ",", "(Filters)", ",", "<separator>", ",", "Low-Pass VCF", ",", "Multi-Mode VCF", ",", "Ladder VCF", ",", "Comb VCF", ",", "VCRF ", ",", "Graphic Filter", ",", "Vocal Filter", ",", "FFT Lab", ",", "Video Filter", ",", "<separator>", ",", "(CV Stuff)", ",", "<separator>", ",", "VC LFO", ",", "VC ADSR", ",", "Quad Decay", ",", "Bouncing CV", ",", "CV Sequencer", ",", "Drum Sequencer", ",", "Graphic Step", ",", "Graphic Sequencer", ",", "Arpeggio! ", ",", "Joy Stick", ",", "Theremin ", ",", "Envelope Follower", ",", "MIDI to CV", ",", "<separator>", ",", "(Trigger Stuff)", ",", "<separator>", ",", "Trigger Source", ",", "Manual Trigger", ",", "Clock Divider", ",", "Clock Sequencer", ",", "Rhythm Sequencer", ",", "Random Trigger Gate", ",", "Trigger Delay", ",", "<separator>", ",", "(Other)", ",", "<separator>", ",", "VCA ", ",", "Dual VCA", ",", "Low-Pass Gate", ",", "CV Panner", ",", "Mixer ", ",", "Console Mixer", ",", "VST Loader", ",", "Dual Slew Limiter", ",", "Attenuator ", ",", "Math Operations", ",", "Analyzer ", ",", "Rack " ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -860,13 +860,6 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"fontname" : [ "Open Sans Semibold" ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -876,7 +869,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontname" : [ "Open Sans Semibold" ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 								}
 ,
 								"parentstyle" : "",
@@ -885,9 +885,6 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -896,7 +893,10 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -932,8 +932,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -942,8 +942,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1711,13 +1711,6 @@
 , 											{
 												"name" : "Luca",
 												"default" : 												{
-													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-													"fontname" : [ "Open Sans Semibold" ],
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1727,7 +1720,14 @@
 														"proportion" : 0.39,
 														"autogradient" : 0
 													}
-
+,
+													"fontname" : [ "Open Sans Semibold" ],
+													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1736,9 +1736,6 @@
 , 											{
 												"name" : "dark-night-patch",
 												"default" : 												{
-													"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
-													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-													"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1747,7 +1744,10 @@
 														"angle" : 270.0,
 														"proportion" : 0.39
 													}
-
+,
+													"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+													"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1783,8 +1783,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1793,8 +1793,8 @@
 , 											{
 												"name" : "newobjYellow-2",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2131,13 +2131,6 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"fontname" : [ "Open Sans Semibold" ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2147,7 +2140,14 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"fontname" : [ "Open Sans Semibold" ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2156,9 +2156,6 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2167,7 +2164,10 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2203,8 +2203,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2213,8 +2213,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2521,149 +2521,149 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-45::obj-67" : [ "live.text[89]", "live.text", 0 ],
-			"obj-45::obj-141" : [ "live.gain~[16]", "Master", 0 ],
-			"obj-45::obj-146" : [ "live.text[83]", "live.text[1]", 0 ],
-			"obj-8::obj-1" : [ "live.dial[60]", "Frequ.", 0 ],
-			"obj-45::obj-137" : [ "live.text[42]", "live.text", 0 ],
-			"obj-45::obj-46" : [ "live.text[65]", "live.text", 0 ],
-			"obj-25::obj-93" : [ "live.text[92]", "live.text[9]", 0 ],
-			"obj-45::obj-197" : [ "live.text[73]", "live.text", 0 ],
-			"obj-45::obj-216" : [ "live.text[47]", "live.text[44]", 0 ],
-			"obj-45::obj-226" : [ "live.text[52]", "live.text[44]", 0 ],
-			"obj-5::obj-1" : [ "live.dial[5]", "Tune", 0 ],
-			"obj-8::obj-56" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-10::obj-17" : [ "live.dial[384]", "cv", 0 ],
-			"obj-45::obj-97::obj-88" : [ "live.gain~[21]", "13", 0 ],
-			"obj-45::obj-207" : [ "live.dial[264]", "Pan", 0 ],
-			"obj-45::obj-84::obj-88" : [ "live.gain~[30]", "5", 0 ],
-			"obj-45::obj-164" : [ "live.text[80]", "live.text[1]", 0 ],
-			"obj-45::obj-241" : [ "live.text[59]", "live.text[44]", 0 ],
-			"obj-45::obj-126" : [ "live.dial[47]", "Pan", 0 ],
-			"obj-61" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-45::obj-112" : [ "live.text[30]", "live.text", 0 ],
-			"obj-45::obj-33" : [ "live.text[62]", "live.text", 0 ],
-			"obj-9::obj-14" : [ "live.dial[196]", "Lev.", 0 ],
-			"obj-45::obj-124" : [ "live.text[35]", "live.text", 0 ],
-			"obj-45::obj-213" : [ "live.text[70]", "live.text", 0 ],
-			"obj-10::obj-1" : [ "live.dial[382]", "A", 0 ],
-			"obj-45::obj-134" : [ "live.text[40]", "live.text", 0 ],
-			"obj-10::obj-45" : [ "live.dial[383]", "cv", 0 ],
-			"obj-45::obj-103::obj-88" : [ "live.gain~[25]", "11", 0 ],
-			"obj-45::obj-55" : [ "live.dial[231]", "Pan", 0 ],
-			"obj-45::obj-249" : [ "live.text[86]", "live.text[44]", 0 ],
-			"obj-45::obj-77::obj-88" : [ "live.gain~[32]", "7", 0 ],
-			"obj-45::obj-81" : [ "live.dial[271]", "Pan", 0 ],
-			"obj-45::obj-169" : [ "live.text[45]", "live.text[44]", 0 ],
-			"obj-45::obj-155" : [ "live.text[77]", "live.text[1]", 0 ],
-			"obj-25::obj-120" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-5::obj-16" : [ "live.dial[3]", "X Offs", 0 ],
-			"obj-8::obj-2" : [ "live.dial[52]", "CV", 0 ],
-			"obj-45::obj-222" : [ "live.text[50]", "live.text[44]", 0 ],
-			"obj-45::obj-49" : [ "live.text[67]", "live.text", 0 ],
-			"obj-10::obj-5" : [ "live.dial[243]", "R", 0 ],
-			"obj-15::obj-12" : [ "live.text[1]", "live.text", 0 ],
-			"obj-45::obj-233" : [ "live.text[55]", "live.text[44]", 0 ],
-			"obj-45::obj-194" : [ "live.text[75]", "live.text", 0 ],
-			"obj-1::obj-5" : [ "live.dial[41]", "PW CV2", 0 ],
-			"obj-9::obj-4" : [ "live.dial[177]", "Frq.", 0 ],
-			"obj-45::obj-100::obj-88" : [ "live.gain~[22]", "12", 0 ],
-			"obj-45::obj-20" : [ "live.dial[268]", "Pan", 0 ],
-			"obj-45::obj-65::obj-88" : [ "live.gain~[29]", "4", 0 ],
-			"obj-45::obj-152" : [ "live.text[82]", "live.text[1]", 0 ],
-			"obj-45::obj-142" : [ "live.dial[48]", "Pan", 0 ],
-			"obj-25::obj-67" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-45::obj-131" : [ "live.text[38]", "live.text", 0 ],
-			"obj-13::obj-3" : [ "live.dial[167]", "CV2", 0 ],
-			"obj-45::obj-138" : [ "live.dial[275]", "Pan", 0 ],
-			"obj-45::obj-45" : [ "live.text[64]", "live.text", 0 ],
-			"obj-15::obj-10" : [ "live.text[2]", "live.text", 0 ],
-			"obj-45::obj-167" : [ "live.text[43]", "live.text", 0 ],
-			"obj-45::obj-196" : [ "live.text[72]", "live.text", 0 ],
-			"obj-25::obj-118" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-5::obj-5" : [ "live.dial[1]", "PW CV2", 0 ],
-			"obj-45::obj-29::obj-88" : [ "live.gain~[26]", "1", 0 ],
-			"obj-45::obj-218" : [ "live.text[48]", "live.text[44]", 0 ],
-			"obj-10::obj-41" : [ "live.dial[381]", "cv", 0 ],
-			"obj-45::obj-209" : [ "live.dial[266]", "Pan", 0 ],
-			"obj-45::obj-121" : [ "live.dial[267]", "Pan", 0 ],
-			"obj-45::obj-161" : [ "live.text[79]", "live.text[1]", 0 ],
-			"obj-45::obj-228" : [ "live.text[53]", "live.text[44]", 0 ],
-			"obj-5::obj-56" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-45::obj-110::obj-88" : [ "live.gain~[23]", "9", 0 ],
-			"obj-8::obj-49" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-10::obj-20" : [ "live.dial[385]", "PW", 0 ],
-			"obj-45::obj-56" : [ "live.text[69]", "live.text", 0 ],
-			"obj-45::obj-117" : [ "live.text[61]", "live.text", 0 ],
-			"obj-10::obj-3" : [ "live.dial[380]", "D", 0 ],
-			"obj-45::obj-32" : [ "live.text[85]", "live.text", 0 ],
-			"obj-45::obj-239" : [ "live.text[58]", "live.text[44]", 0 ],
-			"obj-45::obj-119" : [ "live.text[36]", "live.text", 0 ],
-			"obj-45::obj-59::obj-88" : [ "live.gain~[28]", "3", 0 ],
-			"obj-45::obj-42" : [ "live.dial[274]", "Pan", 0 ],
-			"obj-1::obj-1" : [ "live.dial[40]", "Tune", 0 ],
-			"obj-13::obj-5" : [ "live.dial[169]", "In2", 0 ],
-			"obj-45::obj-135" : [ "live.text[41]", "live.text", 0 ],
-			"obj-45::obj-70" : [ "live.dial[270]", "Pan", 0 ],
-			"obj-45::obj-91::obj-88" : [ "live.gain~[19]", "15", 0 ],
-			"obj-45::obj-145" : [ "live.text[84]", "live.text[1]", 0 ],
-			"obj-25::obj-70" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-10::obj-49" : [ "live.toggle[53]", "live.toggle", 0 ],
-			"obj-13::obj-4" : [ "live.dial[22]", "In1", 0 ],
-			"obj-45::obj-174" : [ "live.text[46]", "live.text[44]", 0 ],
-			"obj-1::obj-56" : [ "live.tab[12]", "live.tab[1]", 0 ],
-			"obj-8::obj-3" : [ "live.dial[57]", "PW", 0 ],
-			"obj-13::obj-194" : [ "live.dial[170]", "PW", 0 ],
-			"obj-45::obj-48" : [ "live.text[66]", "live.text", 0 ],
-			"obj-5::obj-2" : [ "live.dial[4]", "Range", 0 ],
-			"obj-9::obj-2" : [ "live.dial[195]", "Res.", 0 ],
 			"obj-45::obj-193" : [ "live.text[74]", "live.text", 0 ],
-			"obj-45::obj-224" : [ "live.text[51]", "live.text[44]", 0 ],
-			"obj-25::obj-94" : [ "live.text[93]", "live.text[9]", 0 ],
-			"obj-15::obj-17" : [ "live.text[3]", "live.text", 0 ],
-			"obj-9::obj-5" : [ "live.dial[176]", "FCV2", 0 ],
-			"obj-45::obj-235" : [ "live.text[56]", "live.text[44]", 0 ],
-			"obj-45::obj-68" : [ "live.text[29]", "live.text", 0 ],
+			"obj-1::obj-56" : [ "live.tab[12]", "live.tab[1]", 0 ],
+			"obj-5::obj-1" : [ "live.dial[4]", "Tune", 0 ],
+			"obj-45::obj-119" : [ "live.text[36]", "live.text", 0 ],
 			"obj-13::obj-2" : [ "live.dial[21]", "Out", 0 ],
-			"obj-45::obj-74::obj-88" : [ "live.gain~[33]", "8", 0 ],
-			"obj-45::obj-149" : [ "live.text[81]", "live.text[1]", 0 ],
-			"obj-45::obj-128" : [ "live.dial[269]", "Pan", 0 ],
-			"obj-64" : [ "live.text[335]", "live.text", 0 ],
-			"obj-45::obj-237" : [ "live.text[57]", "live.text[44]", 0 ],
-			"obj-45::obj-114" : [ "live.text[34]", "live.text", 0 ],
-			"obj-45::obj-35" : [ "live.text[63]", "live.text", 0 ],
+			"obj-25::obj-94" : [ "live.text[93]", "live.text[9]", 0 ],
+			"obj-1::obj-2" : [ "live.dial[38]", "Range", 0 ],
+			"obj-45::obj-134" : [ "live.text[40]", "live.text", 0 ],
+			"obj-13::obj-3" : [ "live.dial[167]", "CV2", 0 ],
+			"obj-45::obj-103::obj-88" : [ "live.gain~[25]", "11", 0 ],
 			"obj-45::obj-50" : [ "live.text[91]", "live.text[44]", 0 ],
-			"obj-9::obj-15" : [ "live.dial[197]", "QCV", 0 ],
-			"obj-45::obj-132" : [ "live.text[39]", "live.text", 0 ],
-			"obj-45::obj-214" : [ "live.text[71]", "live.text", 0 ],
-			"obj-13::obj-1" : [ "live.dial[168]", "Gain", 0 ],
-			"obj-25::obj-127" : [ "live.text[11]", "live.text", 0 ],
-			"obj-1::obj-16" : [ "live.dial[42]", "X Offs", 0 ],
-			"obj-45::obj-40" : [ "live.text[44]", "live.text[44]", 0 ],
-			"obj-10::obj-43" : [ "live.dial[244]", "cv", 0 ],
-			"obj-45::obj-111" : [ "live.text[88]", "live.text", 0 ],
-			"obj-45::obj-211" : [ "live.dial[265]", "Pan", 0 ],
-			"obj-5::obj-4" : [ "live.dial[2]", "CV2", 0 ],
-			"obj-45::obj-54::obj-88" : [ "live.gain~[27]", "2", 0 ],
-			"obj-45::obj-106::obj-88" : [ "live.gain~[24]", "10", 0 ],
-			"obj-45::obj-94::obj-88" : [ "live.gain~[20]", "14", 0 ],
-			"obj-45::obj-220" : [ "live.text[49]", "live.text[44]", 0 ],
-			"obj-45::obj-118" : [ "live.dial[272]", "Pan", 0 ],
-			"obj-45::obj-158" : [ "live.text[78]", "live.text[1]", 0 ],
-			"obj-45::obj-80::obj-88" : [ "live.gain~[31]", "6", 0 ],
+			"obj-45::obj-152" : [ "live.text[82]", "live.text[1]", 0 ],
+			"obj-45::obj-169" : [ "live.text[45]", "live.text[44]", 0 ],
 			"obj-8::obj-66" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-45::obj-142" : [ "live.dial[48]", "Pan", 0 ],
+			"obj-45::obj-33" : [ "live.text[62]", "live.text", 0 ],
+			"obj-8::obj-56" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-45::obj-110::obj-88" : [ "live.gain~[23]", "9", 0 ],
 			"obj-45::obj-231" : [ "live.text[54]", "live.text[44]", 0 ],
-			"obj-1::obj-4" : [ "live.dial[31]", "CV2", 0 ],
-			"obj-45::obj-51" : [ "live.text[68]", "live.text", 0 ],
+			"obj-45::obj-49" : [ "live.text[67]", "live.text", 0 ],
+			"obj-10::obj-41" : [ "live.dial[381]", "cv", 0 ],
+			"obj-45::obj-68" : [ "live.text[29]", "live.text", 0 ],
+			"obj-45::obj-196" : [ "live.text[72]", "live.text", 0 ],
+			"obj-5::obj-4" : [ "live.dial[2]", "CV2", 0 ],
+			"obj-10::obj-3" : [ "live.dial[380]", "D", 0 ],
+			"obj-10::obj-49" : [ "live.toggle[53]", "live.toggle", 0 ],
+			"obj-45::obj-161" : [ "live.text[79]", "live.text[1]", 0 ],
+			"obj-45::obj-114" : [ "live.text[34]", "live.text", 0 ],
+			"obj-45::obj-84::obj-88" : [ "live.gain~[30]", "5", 0 ],
+			"obj-45::obj-32" : [ "live.text[85]", "live.text", 0 ],
+			"obj-45::obj-121" : [ "live.dial[267]", "Pan", 0 ],
+			"obj-1::obj-5" : [ "live.dial[41]", "PW CV2", 0 ],
+			"obj-45::obj-100::obj-88" : [ "live.gain~[22]", "12", 0 ],
+			"obj-45::obj-211" : [ "live.dial[265]", "Pan", 0 ],
+			"obj-45::obj-132" : [ "live.text[39]", "live.text", 0 ],
+			"obj-45::obj-167" : [ "live.text[43]", "live.text", 0 ],
+			"obj-45::obj-239" : [ "live.text[58]", "live.text[44]", 0 ],
+			"obj-45::obj-106::obj-88" : [ "live.gain~[24]", "10", 0 ],
 			"obj-45::obj-115" : [ "live.text[60]", "live.text", 0 ],
+			"obj-45::obj-218" : [ "live.text[48]", "live.text[44]", 0 ],
+			"obj-8::obj-3" : [ "live.dial[57]", "PW", 0 ],
+			"obj-9::obj-15" : [ "live.dial[197]", "QCV", 0 ],
+			"obj-45::obj-145" : [ "live.text[84]", "live.text[1]", 0 ],
+			"obj-45::obj-46" : [ "live.text[65]", "live.text", 0 ],
+			"obj-45::obj-226" : [ "live.text[52]", "live.text[44]", 0 ],
+			"obj-45::obj-70" : [ "live.dial[270]", "Pan", 0 ],
+			"obj-8::obj-1" : [ "live.dial[60]", "Frequ.", 0 ],
+			"obj-10::obj-45" : [ "live.dial[383]", "cv", 0 ],
+			"obj-15::obj-10" : [ "live.text[2]", "live.text", 0 ],
+			"obj-45::obj-37" : [ "live.dial[49]", "Pan", 0 ],
+			"obj-9::obj-2" : [ "live.dial[195]", "Res.", 0 ],
+			"obj-45::obj-237" : [ "live.text[57]", "live.text[44]", 0 ],
+			"obj-45::obj-241" : [ "live.text[59]", "live.text[44]", 0 ],
+			"obj-45::obj-213" : [ "live.text[70]", "live.text", 0 ],
+			"obj-10::obj-5" : [ "live.dial[243]", "R", 0 ],
+			"obj-10::obj-20" : [ "live.dial[385]", "PW", 0 ],
+			"obj-45::obj-80::obj-88" : [ "live.gain~[31]", "6", 0 ],
+			"obj-45::obj-194" : [ "live.text[75]", "live.text", 0 ],
+			"obj-25::obj-67" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-5::obj-16" : [ "live.dial[5]", "X Offs", 0 ],
+			"obj-45::obj-123" : [ "live.text[37]", "live.text", 0 ],
+			"obj-45::obj-141" : [ "live.gain~[16]", "Master", 0 ],
+			"obj-25::obj-120" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-45::obj-65::obj-88" : [ "live.gain~[29]", "4", 0 ],
+			"obj-45::obj-149" : [ "live.text[81]", "live.text[1]", 0 ],
+			"obj-45::obj-135" : [ "live.text[41]", "live.text", 0 ],
+			"obj-25::obj-127" : [ "live.text[11]", "live.text", 0 ],
+			"obj-45::obj-128" : [ "live.dial[269]", "Pan", 0 ],
+			"obj-45::obj-67" : [ "live.text[89]", "live.text", 0 ],
+			"obj-45::obj-207" : [ "live.dial[264]", "Pan", 0 ],
+			"obj-45::obj-174" : [ "live.text[46]", "live.text[44]", 0 ],
+			"obj-5::obj-56" : [ "live.tab[1]", "live.tab[1]", 0 ],
+			"obj-61" : [ "live.numbox[34]", "live.numbox", 0 ],
+			"obj-9::obj-14" : [ "live.dial[196]", "Lev.", 0 ],
+			"obj-45::obj-35" : [ "live.text[63]", "live.text", 0 ],
+			"obj-45::obj-249" : [ "live.text[86]", "live.text[44]", 0 ],
+			"obj-45::obj-222" : [ "live.text[50]", "live.text[44]", 0 ],
+			"obj-45::obj-88::obj-88" : [ "live.gain~[18]", "16", 0 ],
+			"obj-25::obj-118" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-45::obj-77::obj-88" : [ "live.gain~[32]", "7", 0 ],
+			"obj-45::obj-233" : [ "live.text[55]", "live.text[44]", 0 ],
+			"obj-45::obj-51" : [ "live.text[68]", "live.text", 0 ],
+			"obj-10::obj-17" : [ "live.dial[384]", "cv", 0 ],
+			"obj-45::obj-112" : [ "live.text[30]", "live.text", 0 ],
+			"obj-45::obj-158" : [ "live.text[78]", "live.text[1]", 0 ],
+			"obj-9::obj-4" : [ "live.dial[177]", "Frq.", 0 ],
+			"obj-45::obj-258" : [ "live.text[87]", "live.text[44]", 0 ],
+			"obj-45::obj-118" : [ "live.dial[272]", "Pan", 0 ],
+			"obj-45::obj-197" : [ "live.text[73]", "live.text", 0 ],
+			"obj-5::obj-2" : [ "live.dial[3]", "Range", 0 ],
+			"obj-10::obj-1" : [ "live.dial[382]", "A", 0 ],
+			"obj-15::obj-12" : [ "live.text[1]", "live.text", 0 ],
+			"obj-45::obj-94::obj-88" : [ "live.gain~[20]", "14", 0 ],
+			"obj-45::obj-124" : [ "live.text[35]", "live.text", 0 ],
+			"obj-45::obj-55" : [ "live.dial[231]", "Pan", 0 ],
+			"obj-25::obj-93" : [ "live.text[92]", "live.text[9]", 0 ],
+			"obj-1::obj-4" : [ "live.dial[31]", "CV2", 0 ],
+			"obj-15::obj-17" : [ "live.text[3]", "live.text", 0 ],
+			"obj-13::obj-4" : [ "live.dial[22]", "In1", 0 ],
+			"obj-45::obj-40" : [ "live.text[44]", "live.text[44]", 0 ],
+			"obj-8::obj-2" : [ "live.dial[52]", "CV", 0 ],
+			"obj-45::obj-146" : [ "live.text[83]", "live.text[1]", 0 ],
+			"obj-45::obj-117" : [ "live.text[61]", "live.text", 0 ],
+			"obj-45::obj-220" : [ "live.text[49]", "live.text[44]", 0 ],
+			"obj-45::obj-138" : [ "live.dial[275]", "Pan", 0 ],
+			"obj-1::obj-16" : [ "live.dial[42]", "X Offs", 0 ],
+			"obj-45::obj-54::obj-88" : [ "live.gain~[27]", "2", 0 ],
+			"obj-45::obj-20" : [ "live.dial[268]", "Pan", 0 ],
+			"obj-45::obj-228" : [ "live.text[53]", "live.text[44]", 0 ],
+			"obj-45::obj-48" : [ "live.text[66]", "live.text", 0 ],
+			"obj-10::obj-43" : [ "live.dial[244]", "cv", 0 ],
+			"obj-45::obj-62" : [ "live.dial[273]", "Pan", 0 ],
+			"obj-9::obj-5" : [ "live.dial[176]", "FCV2", 0 ],
+			"obj-13::obj-194" : [ "live.dial[170]", "PW", 0 ],
+			"obj-45::obj-91::obj-88" : [ "live.gain~[19]", "15", 0 ],
+			"obj-45::obj-214" : [ "live.text[71]", "live.text", 0 ],
+			"obj-5::obj-5" : [ "live.dial[1]", "PW CV2", 0 ],
 			"obj-10::obj-4" : [ "live.dial[379]", "S", 0 ],
 			"obj-45::obj-229" : [ "live.text[76]", "live.text", 0 ],
-			"obj-45::obj-37" : [ "live.dial[49]", "Pan", 0 ],
-			"obj-1::obj-2" : [ "live.dial[38]", "Range", 0 ],
-			"obj-45::obj-88::obj-88" : [ "live.gain~[18]", "16", 0 ],
-			"obj-45::obj-123" : [ "live.text[37]", "live.text", 0 ],
-			"obj-45::obj-258" : [ "live.text[87]", "live.text[44]", 0 ],
-			"obj-45::obj-62" : [ "live.dial[273]", "Pan", 0 ]
+			"obj-25::obj-70" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-45::obj-164" : [ "live.text[80]", "live.text[1]", 0 ],
+			"obj-45::obj-131" : [ "live.text[38]", "live.text", 0 ],
+			"obj-13::obj-5" : [ "live.dial[169]", "In2", 0 ],
+			"obj-45::obj-97::obj-88" : [ "live.gain~[21]", "13", 0 ],
+			"obj-45::obj-126" : [ "live.dial[47]", "Pan", 0 ],
+			"obj-1::obj-1" : [ "live.dial[40]", "Tune", 0 ],
+			"obj-45::obj-209" : [ "live.dial[266]", "Pan", 0 ],
+			"obj-45::obj-137" : [ "live.text[42]", "live.text", 0 ],
+			"obj-13::obj-1" : [ "live.dial[168]", "Gain", 0 ],
+			"obj-45::obj-59::obj-88" : [ "live.gain~[28]", "3", 0 ],
+			"obj-45::obj-216" : [ "live.text[47]", "live.text[44]", 0 ],
+			"obj-45::obj-111" : [ "live.text[88]", "live.text", 0 ],
+			"obj-8::obj-49" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-64" : [ "live.text[335]", "live.text", 0 ],
+			"obj-45::obj-29::obj-88" : [ "live.gain~[26]", "1", 0 ],
+			"obj-45::obj-224" : [ "live.text[51]", "live.text[44]", 0 ],
+			"obj-45::obj-45" : [ "live.text[64]", "live.text", 0 ],
+			"obj-45::obj-155" : [ "live.text[77]", "live.text[1]", 0 ],
+			"obj-45::obj-74::obj-88" : [ "live.gain~[33]", "8", 0 ],
+			"obj-45::obj-235" : [ "live.text[56]", "live.text[44]", 0 ],
+			"obj-45::obj-56" : [ "live.text[69]", "live.text", 0 ],
+			"obj-45::obj-81" : [ "live.dial[271]", "Pan", 0 ],
+			"obj-45::obj-42" : [ "live.dial[274]", "Pan", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2675,7 +2675,7 @@
 			}
 , 			{
 				"name" : "presets.json",
-				"bootpath" : "~/Documents/Project MODULATE!/MODULATE Repo/Modulate-Synth/MODULATE!",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/MODULATE!",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2836,13 +2836,6 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-					"fontname" : [ "Open Sans Semibold" ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2852,7 +2845,14 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"fontname" : [ "Open Sans Semibold" ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2861,9 +2861,6 @@
 , 			{
 				"name" : "dark-night-patch",
 				"default" : 				{
-					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2872,7 +2869,10 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2908,8 +2908,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2918,8 +2918,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
