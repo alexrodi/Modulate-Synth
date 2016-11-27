@@ -1,0 +1,12 @@
+"Compressor ", Compress 1 540 268 150 0;
+"Ring Modulator", RM 1 540 268 34 0;
+"Dual S&H", SaH 1 540 268 34 0;
+"Phazer ", Phazer 1 540 268 86 0;
+"Delay ", MDelay 1 540 268 82 0;
+"Stereo Delay", StereoDelay 1 540 268 98 0;
+"Echo&Shift ", EchoShift 1 540 268 122 0;
+"Reverb ", Reverb 1 540 268 108 0;
+"Distort ", Distort 1 540 268 70 0;
+"Waveshaper ", Waveshaper 1 540 268 78 0;
+"Moebius Tube", MoebiusTube 1 540 268 96 0;
+"Grandma's Radio", OldRadioDist 1 540 268 112 0;

@@ -1,0 +1,9 @@
+"VCA ", VCA 1 540 268 82 0;
+"Dual VCA", DVCA 1 540 268 32 0;
+"CV Panner", Panner 1 540 268 66 0;
+"Mixer ", Mixer 1 540 268 82 0;
+"Console Mixer", ConsoleMixer 1 270 808 222 0;
+"Attenuator ", Atten 1 540 268 62 0;
+"Math Operations", MathOper 1 540 268 72 0;
+"Analyzer ", Analyzer 1 540 268 116 0;
+"Rack ", Rack 0 0 1350 498 1;

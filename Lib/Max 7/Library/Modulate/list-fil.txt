@@ -1,0 +1,10 @@
+"Low-Pass VCF", Lowpass 1 540 268 86 0;
+"Low-Pass Gate", LowPassGate 1 540 268 82 0;
+"Multi-Mode VCF", MultiFilter 1 540 268 86 0;
+"Ladder VCF", LadderFilter 1 540 268 88 0;
+"Comb VCF", CombFilter 1 540 268 86 0;
+"VCRF ", VCRF 1 540 268 168 0;
+"Graphic Filter", Gfilter 1 540 268 118 0;
+"Vocal Filter", VocalFilter 1 540 268 86 0;
+"FFT Lab", FFTLab 1 540 268 150 0;
+"Video Filter", VideoFilter 1 540 268 92 0;

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 742.0, 670.0 ],
+		"rect" : [ 182.0, 79.0, 742.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1308,13 +1308,13 @@
 										"autogradient" : 0
 									}
 ,
-									"fontname" : [ "Open Sans Semibold" ],
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1323,6 +1323,7 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1333,7 +1334,6 @@
 									}
 ,
 									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 								}
 ,
@@ -1370,8 +1370,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1380,8 +1380,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1459,7 +1459,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u665001334"
+					"varname" : "u388000607"
 				}
 
 			}
@@ -1683,7 +1683,7 @@
 					"fontname" : "Century Gothic",
 					"fontsize" : 9.0,
 					"id" : "obj-12",
-					"items" : [ "Recurso IAC Bus 1", ",", "to Max 1", ",", "to Max 2", ",", "Traveler MIDI Port", ",", "Traveler Sync Port" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1743,7 +1743,7 @@
 					"fontname" : "Century Gothic",
 					"fontsize" : 11.0,
 					"id" : "obj-5",
-					"items" : [ "no plug-in", ",", "3D_Binaural_Spatializer", ",", "AkustiX", ",", "audjoo_helix", ",", "BiFilter2", ",", "Blackhole", ",", "CA5000", ",", "Chromaphone", ",", "Cohmpost_VST2MachO", ",", "Crystallizer", ",", "Decapitator", ",", "Echoboy", ",", "Effectrix", ",", "FabFilter Pro-Q (Mono)", ",", "FabFilter Pro-Q", ",", "FabFilter Simplon", ",", "FilterFreak1", ",", "FilterFreak2", ",", "FM8 FX", ",", "FM8", ",", "GFM_psypan", ",", "Gladiator", ",", "GlassViper", ",", "IVGI", ",", "iZotope Insight", ",", "iZotope Meter Tap", ",", "iZotope Ozone 5 Dynamics", ",", "iZotope Ozone 5 Equalizer", ",", "iZotope Ozone 5 Exciter", ",", "iZotope Ozone 5 Imager", ",", "iZotope Ozone 5 Maximizer", ",", "iZotope Ozone 5 Reverb", ",", "iZotope Ozone 5", ",", "Limiter6", ",", "Mangle", ",", "Massive", ",", "MH Thump", ",", "PanMan", ",", "PhaseMistress", ",", "RoomVerbM2", ",", "RoughRider", ",", "SausageFattener", ",", "Serum", ",", "Sonarworks Reference 3 plugin", ",", "Stereo Touch", ",", "Sylenth1", ",", "Synful Orchestra VST", ",", "TAL-Bitcrusher", ",", "TAL-Dub-2", ",", "TAL-Dub-3", ",", "TAL-Dub", ",", "TAL-Flanger", ",", "TAL-NoiseMaker", ",", "TAL-Tube", ",", "TAL-USE", ",", "Tassman 4 VST Effect", ",", "Tassman 4 VST Synth", ",", "Tremolator", ",", "UpStereo", ",", "UpStereoPro", ",", "WaveShell-VST 8.0", ",", "Eos", ",", "Kombinat", ",", "BitterSweetII", ",", "Nuklear", ",", "basiQ", ",", "Kratos2Maximizer", ",", "relectro", ",", "Albino 3", ",", "Blue", ",", "Synplant", ",", "Runciter", ",", "Uhbik-A", ",", "Uhbik-D", ",", "Uhbik-F", ",", "Uhbik-G", ",", "Uhbik-P", ",", "Uhbik-Q", ",", "Uhbik-S", ",", "Uhbik-T", ",", "AAS Player", ",", "Albino 3", ",", "Alpha", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixMixer", ",", "AUMatrixReverb", ",", "AUMixer", ",", "AUMixer3D", ",", "AUMultibandCompressor", ",", "AUMultiChannelMixer", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewTimePitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AURogerBeep", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Blackhole", ",", "CA-2A", ",", "Chromaphone", ",", "CronoX 3", ",", "CrX4", ",", "Crystal", ",", "CS-80V2", ",", "Cyclop", ",", "DLSMusicDevice", ",", "Effectrix", ",", "Element P", ",", "Enhanced EQ", ",", "Eos", ",", "FF Micro", ",", "FF One", ",", "FF Pro-C (Mono)", ",", "FF Pro-C", ",", "FF Pro-Q", ",", "FF Simplon", ",", "FF Timeless 2", ",", "FF Twin 2", ",", "FF Volcano 2 (Mono)", ",", "FF Volcano 2", ",", "Frohmage", ",", "G", ",", "GFM Psypan", ",", "GlassViper", ",", "helix", ",", "HRTFPanner", ",", "Hybrit", ",", "Insight", ",", "IVGI", ",", "Kontakt 5", ",", "Kratos 2 Maximizer", ",", "lade", ",", "Le456", ",", "LeCto", ",", "LeGion", ",", "LeXtac", ",", "Limiter No6", ",", "lue", ",", "Meter Tap", ",", "MH Thump", ",", "MIDISynth", ",", "Modular V effect", ",", "Modular V", ",", "NadIR Convolver", ",", "Nuklear", ",", "Octopus", ",", "Ozone 5 Dynamics", ",", "Ozone 5 Equalizer", ",", "Ozone 5 Exciter", ",", "Ozone 5 Imager", ",", "Ozone 5 Maximizer", ",", "Ozone 5 Reverb", ",", "Ozone 5", ",", "Passive EQ", ",", "Punch", ",", "PunchMulti", ",", "Reaktor5 FX", ",", "Reaktor5", ",", "redator", ",", "redatorFX", ",", "relectro", ",", "Rough Rider", ",", "RoundTripAAC", ",", "RP-Delay", ",", "RP-Distort", ",", "RP-Verb", ",", "Runciter", ",", "Sausage Fattener", ",", "Scarlett Compressor", ",", "Scarlett Equaliser", ",", "Scarlett Gate", ",", "Scarlett Reverb", ",", "Serum", ",", "Sonarworks Reference 3 plug-in", ",", "SymptohmPE", ",", "Synplant", ",", "The Mangle", ",", "The T-Pain Effect", ",", "Trash 2", ",", "Turnado", ",", "TyrellN6", ",", "ubBoomBass", ",", "Uhbik-A", ",", "Uhbik-D", ",", "Uhbik-F", ",", "Uhbik-G", ",", "Uhbik-P", ",", "Uhbik-Q", ",", "Uhbik-S", ",", "Uhbik-T", ",", "UpStereoPro", ",", "Vandal", ",", "Vari Comp", ",", "Z3TA+ 2", ",", "Zebra2", ",", "Zebralette", ",", "Zebrify", ",", "ZRev" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2533,18 +2533,18 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-47" : [ "live.dial[219]", "Program", 0 ],
-			"obj-11" : [ "live.text[12]", "live.text", 0 ],
-			"obj-14" : [ "live.text[11]", "live.text", 0 ],
-			"obj-43" : [ "live.text[20]", "live.text", 0 ],
+			"obj-42" : [ "live.text[21]", "live.text", 0 ],
 			"obj-70" : [ "vst~", "vst~", 0 ],
+			"obj-14" : [ "live.text[11]", "live.text", 0 ],
+			"obj-11" : [ "live.text[12]", "live.text", 0 ],
+			"obj-43" : [ "live.text[20]", "live.text", 0 ],
 			"obj-1" : [ "live.text[13]", "live.text", 0 ],
-			"obj-42" : [ "live.text[21]", "live.text", 0 ]
+			"obj-47" : [ "live.dial[219]", "Program", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bbronze.jpg",
-				"bootpath" : "~/Documents/Project MODULATE!/Package/Max 7/Library/Modulate",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/Lib/Max 7/Library/Modulate",
 				"patcherrelativepath" : ".",
 				"type" : "JPEG",
 				"implicit" : 1
@@ -2552,7 +2552,14 @@
 , 			{
 				"name" : "get_plugs.js",
 				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/help/msp",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max.app/Contents/Resources/C74/help/msp",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max.app/Contents/Resources/C74/help/msp",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "size.js",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/Lib/Max 7/Library/Modulate",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -2589,13 +2596,13 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Open Sans Semibold" ],
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2604,6 +2611,7 @@
 , 			{
 				"name" : "dark-night-patch",
 				"default" : 				{
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2614,7 +2622,6 @@
 					}
 ,
 					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 ,
@@ -2651,8 +2658,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2661,8 +2668,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
