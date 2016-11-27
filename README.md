@@ -1,6 +1,6 @@
 # Modulate-Synth
 
-Modulate! is a modular Max/MSP patch that aims to be a close aproximation (technically and visually) to a physical modular synth.
+Modulate! is a modular Max/MSP patch that aims to be a close approximation (technically and visually) to a physical modular synth.
 
 This patch is built and tested on Max 7 running on OSX
 
