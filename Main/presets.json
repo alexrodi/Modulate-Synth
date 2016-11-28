@@ -92,7 +92,7 @@
 					"consolemixer::live.gain~[15]::live.gain~[8]" : [ 0.0 ],
 					"consolemixer::live.gain~[14]::live.gain~[8]" : [ 0.0 ],
 					"consolemixer::live.gain~[13]::live.gain~[8]" : [ 0.0 ],
-					"consolemixer::live.gain~[12]::u989141910" : [  ],
+					"consolemixer::live.gain~[12]::live.gain~[8]" : [ 0.0 ],
 					"consolemixer::live.gain~[11]::live.gain~[8]" : [ 0.0 ],
 					"consolemixer::live.gain~[10]::live.gain~[8]" : [ 0.0 ],
 					"consolemixer::live.gain~[9]::live.gain~[8]" : [ 0.0 ],
