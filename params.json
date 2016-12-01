@@ -1,6 +1,6 @@
 {
   "name": "MODULATE!",
   "tagline": "A collection of modules and a main patch for Max/MSP that aims to be the closest approximation to a physical modular synth.",
-  "body": "This is just a test",
+  "body": "#This is a header\r\ntext in header\r\n##smaller header\r\ntext in smaller header\r\n#big one again\r\ntext in second",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
