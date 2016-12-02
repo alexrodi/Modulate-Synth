@@ -1,6 +1,6 @@
 {
   "name": "MODULATE!",
   "tagline": "A collection of modules and a main patch for Max/MSP that aims to be the closest approximation to a physical modular synth.",
-  "body": "#This is a header\r\ntext in header\r\n##smaller header\r\ntext in smaller header\r\n#big one again\r\ntext in second",
+  "body": "#What is it?\r\nMODULATE! is a collection of modules and a main environment patch for Max 7 on macOS/OSX specifically designed so that users can take advantage of the amazing software that is MAX/MSP without having to be experienced in it. Experience and explore the procedures and techniques of modular synthesis by your own without spending loads of $$$ on hardware!\r\n#How is it?\r\nA main patcher file serves as a workspace dedicated to the provided library of modules, allowing you to create them from organized menus, save up to 21 custom-named presets per patch and assign MIDI controls in an intuitive Ableton Live-manner.\r\n#big one again\r\ntext in second",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }

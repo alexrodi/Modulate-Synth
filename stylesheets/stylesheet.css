@@ -4,7 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Century Gothic", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
@@ -54,10 +54,11 @@ a {
       margin-left: 0; } }
 
 .page-header {
+  font-family: "Century Gothic";
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #566978;
+  background-image: linear-gradient(120deg, #566978, #a0a9b0); }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -73,19 +74,20 @@ a {
 
 .project-name {
   margin-top: 0;
+  font-weight: normal;
   margin-bottom: 0.1rem; }
 
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 4rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
-    font-size: 2.25rem; } }
+    font-size: 3.25rem; } }
 
 @media screen and (max-width: 42em) {
   .project-name {
-    font-size: 1.75rem; } }
+    font-size: 2.75rem; } }
 
 .project-tagline {
   margin-bottom: 2rem;
@@ -112,9 +114,11 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  text-align: center;
+  color: #566067; }
 .main-content p {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  text-align: center; }
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
