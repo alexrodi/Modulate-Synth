@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 540.0, 139.0, 490.0, 441.0 ],
+		"rect" : [ 304.0, 277.0, 536.0, 184.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,45 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 415.0, 294.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 415.0, 324.0, 44.0, 22.0 ],
+					"style" : "",
+					"text" : "fill cos"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 415.0, 355.0, 167.0, 22.0 ],
+					"style" : "",
+					"text" : "buffer~ cosine @samps 1024"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "message",
@@ -127,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 519.0, 268.0, 58.0, 22.0 ],
+					"patching_rect" : [ 524.0, 294.0, 58.0, 22.0 ],
 					"restore" : 					{
 						"live.dial[1]" : [ 5.0 ],
 						"live.dial[2]" : [ 0.0 ],
@@ -135,13 +174,13 @@
 						"live.dial[4]" : [ 0.0 ],
 						"live.dial[5]" : [ 0.0 ],
 						"live.dial[6]" : [ 1.0 ],
-						"live.dial[7]" : [ 30.0 ],
+						"live.dial[7]" : [ 50.0 ],
 						"live.dial[9]" : [ 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u229004971"
+					"varname" : "u528004042"
 				}
 
 			}
@@ -230,7 +269,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 259.625, 0.799999, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.625, 4.799999, 5.0, 11.0 ]
+					"presentation_rect" : [ 257.625, 4.799999, 5.0, 10.25 ]
 				}
 
 			}
@@ -256,7 +295,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 89.625, -10.0, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.98822, 5.686737, 5.0, 5.113262 ]
+					"presentation_rect" : [ 91.98822, 5.686737, 5.0, 6.113262 ]
 				}
 
 			}
@@ -269,7 +308,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 202.625, -7.0, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 217.625, 4.686737, 5.0, 27.979931 ]
+					"presentation_rect" : [ 216.625, 4.686737, 5.0, 27.313265 ]
 				}
 
 			}
@@ -282,7 +321,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 137.625, 41.0, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 176.625, 5.686737, 5.0, 5.113262 ]
+					"presentation_rect" : [ 175.625, 5.686737, 5.0, 5.113262 ]
 				}
 
 			}
@@ -582,7 +621,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 453.5, 405.63504, 48.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 222.625, 34.301697, 48.0, 20.0 ],
+					"presentation_rect" : [ 223.625, 34.0, 48.0, 20.0 ],
 					"style" : "",
 					"text" : "Dist",
 					"textjustification" : 1
@@ -674,11 +713,12 @@
 							"parameter_longname" : "live.dial[439]",
 							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
+							"parameter_mmin" : 15.0,
 							"parameter_mmax" : 1000.0,
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ 30 ],
+							"parameter_initial" : [ 50 ],
 							"parameter_unitstyle" : 0,
-							"parameter_exponent" : 5.0
+							"parameter_exponent" : 4.8
 						}
 
 					}
@@ -704,7 +744,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 460.5, 427.63504, 34.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.740921, 33.0, 34.0, 27.0 ],
+					"presentation_rect" : [ 230.625, 11.686737, 34.0, 27.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[426]",
@@ -741,7 +781,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 274.0, 422.63504, 34.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 58.0, 57.0, 34.0, 27.0 ],
+					"presentation_rect" : [ 59.0, 57.0, 34.0, 27.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[440]",
@@ -777,7 +817,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 400.5, 427.63504, 34.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 230.078384, 11.0, 34.0, 27.0 ],
+					"presentation_rect" : [ 195.740921, 33.0, 34.0, 27.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[66]",
@@ -827,7 +867,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 160.0, 131.0, 633.0, 612.0 ],
+						"rect" : [ 271.0, 121.0, 633.0, 612.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1200,6 +1240,8 @@
 , 											{
 												"name" : "Luca",
 												"default" : 												{
+													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+													"fontname" : [ "Open Sans Semibold" ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1212,11 +1254,9 @@
 ,
 													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-													"fontname" : [ "Open Sans Semibold" ]
+													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1272,8 +1312,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1282,8 +1322,8 @@
 , 											{
 												"name" : "newobjYellow-2",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1345,12 +1385,12 @@
 								"box" : 								{
 									"id" : "obj-68",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 114.0, 291.0, 36.0, 22.0 ],
+									"patching_rect" : [ 114.0, 291.0, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "cos~"
+									"text" : "wave~ cosine"
 								}
 
 							}
@@ -1865,6 +1905,8 @@
 , 											{
 												"name" : "Luca",
 												"default" : 												{
+													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+													"fontname" : [ "Open Sans Semibold" ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1877,11 +1919,9 @@
 ,
 													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-													"fontname" : [ "Open Sans Semibold" ]
+													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1937,8 +1977,18 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "newobjYellow-2",
+												"default" : 												{
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2918,6 +2968,8 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2930,11 +2982,9 @@
 ,
 									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ]
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2990,8 +3040,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3000,8 +3050,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3232,10 +3282,28 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -3421,14 +3489,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-17" : [ "live.dial[437]", "cv", 0 ],
-			"obj-14" : [ "live.dial[440]", "VCF", 0 ],
 			"obj-25" : [ "live.dial[436]", "Decay", 0 ],
+			"obj-5" : [ "live.dial[66]", "R", 0 ],
+			"obj-15" : [ "live.dial[426]", "VCF", 0 ],
+			"obj-17" : [ "live.dial[437]", "cv", 0 ],
 			"obj-154" : [ "live.dial[439]", "Pitch", 0 ],
 			"obj-70" : [ "live.dial[23]", "Decay", 0 ],
-			"obj-15" : [ "live.dial[426]", "VCF", 0 ],
-			"obj-5" : [ "live.dial[66]", "R", 0 ],
-			"obj-23" : [ "live.dial[438]", "Decay", 0 ]
+			"obj-23" : [ "live.dial[438]", "Decay", 0 ],
+			"obj-14" : [ "live.dial[440]", "VCF", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3475,6 +3543,8 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3487,11 +3557,9 @@
 ,
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3547,8 +3615,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3557,8 +3625,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 182.0, 79.0, 742.0, 670.0 ],
+		"rect" : [ 108.0, 84.0, 742.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -326,27 +326,8 @@
 ,
 					"saved_object_attributes" : 					{
 						"annotation_name" : "",
+						"embedsnapshot" : 0,
 						"parameter_enable" : 1
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 1,
-						"name" : "AUMatrixReverb.auinfo",
-						"origin" : "AUMatrixReverb.auinfo",
-						"type" : "AudioUnit",
-						"subtype" : "AudioEffect",
-						"snapshot" : 						{
-							"pluginname" : "AUMatrixReverb.auinfo",
-							"plugindisplayname" : "AUMatrixReverb",
-							"pluginsavedname" : "AUMatrixReverb",
-							"pluginsaveduniqueid" : 0,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"blob" : "325.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvUlWxUlajUlbsDWcgwVZzkGUtEVakIQXvAGaOAAk..............PD.....HDx......P.BQ4+8A...HvNdhY2....CzCIzQE....A6LfDuA...T.O5HKF....F3i4lYF...vA97HWo....ffOidsB....I7ye+mF...fB+XTYOC...rvO.B......L7CP......PC9vLyMC...3.QHA......O.DP.......D.....HQaxUlcP.fDgUmY3AweZMUagwFafH0au0F.H.vE.PB.o.PL.jC.9.PS.HE.WAf6.LO.0Cf9.vO.......f.A.........vC..................P.G."
-						}
-
 					}
 ,
 					"style" : "",
@@ -1298,6 +1279,8 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1308,12 +1291,10 @@
 										"autogradient" : 0
 									}
 ,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
@@ -1323,7 +1304,6 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1333,6 +1313,7 @@
 										"proportion" : 0.39
 									}
 ,
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 								}
@@ -1370,8 +1351,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1380,8 +1361,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1459,7 +1440,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u388000607"
+					"varname" : "u283003898"
 				}
 
 			}
@@ -1683,7 +1664,7 @@
 					"fontname" : "Century Gothic",
 					"fontsize" : 9.0,
 					"id" : "obj-12",
-					"items" : "<empty>",
+					"items" : [ "Recurso IAC Bus 1", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2533,13 +2514,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-42" : [ "live.text[21]", "live.text", 0 ],
-			"obj-70" : [ "vst~", "vst~", 0 ],
 			"obj-14" : [ "live.text[11]", "live.text", 0 ],
-			"obj-11" : [ "live.text[12]", "live.text", 0 ],
+			"obj-47" : [ "live.dial[219]", "Program", 0 ],
 			"obj-43" : [ "live.text[20]", "live.text", 0 ],
-			"obj-1" : [ "live.text[13]", "live.text", 0 ],
-			"obj-47" : [ "live.dial[219]", "Program", 0 ]
+			"obj-11" : [ "live.text[12]", "live.text", 0 ],
+			"obj-70" : [ "vst~", "vst~", 0 ],
+			"obj-42" : [ "live.text[21]", "live.text", 0 ],
+			"obj-1" : [ "live.text[13]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2586,6 +2567,8 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2596,12 +2579,10 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
@@ -2611,7 +2592,6 @@
 , 			{
 				"name" : "dark-night-patch",
 				"default" : 				{
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2621,6 +2601,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
@@ -2658,8 +2639,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2668,8 +2649,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
