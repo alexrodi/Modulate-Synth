@@ -6,4 +6,5 @@
 "Attenuator ", Atten 1 540 268 62 0;
 "Math Operations", MathOper 1 540 268 72 0;
 "Analyzer ", Analyzer 1 540 268 116 0;
+"Macro Control", MacroCont 1 540 268 180 0;
 "Rack ", Rack 0 0 1350 498 1;
