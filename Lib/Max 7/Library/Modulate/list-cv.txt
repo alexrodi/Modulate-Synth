@@ -1,4 +1,5 @@
 "VC LFO", LFO 1 540 268 82 0;
+"Shape LFO", ShapeLFO 1 540 268 100 0;
 "VC ADSR", ADSR 1 540 268 82 0;
 "Quad Decay", Decay 1 540 268 56 0;
 "Dual Slew Limiter", Slew 1 540 268 60 0;
