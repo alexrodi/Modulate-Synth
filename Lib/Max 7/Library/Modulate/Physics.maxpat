@@ -1166,7 +1166,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 525.0, 146.0, 655.0, 362.0 ],
+						"rect" : [ 141.0, 264.0, 655.0, 362.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1201,7 +1201,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 588.099976, 75.0, 48.0, 22.0 ],
-									"presentation_rect" : [ 583.080566, 93.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "wcv $1"
 								}
@@ -2153,7 +2152,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u829009109"
+					"varname" : "u494012564"
 				}
 
 			}
@@ -2330,7 +2329,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 38.675095, -5.746796, 96.07666, 112.22023 ],
+					"patching_rect" : [ 38.675095, -5.746796, 112.22023, 131.076371 ],
 					"pic" : "bwhite.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ -15.0, -129.185974, 339.35141, 396.37195 ]

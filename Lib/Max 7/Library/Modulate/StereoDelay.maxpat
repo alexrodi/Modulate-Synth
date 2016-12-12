@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 322.0, 216.0, 719.0, 512.0 ],
+		"rect" : [ 43.0, 159.0, 719.0, 512.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2095,7 +2095,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 140.0, 219.0, 710.0, 464.0 ],
+						"rect" : [ 536.0, 168.0, 710.0, 464.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3636,7 +3636,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u804009496"
+					"varname" : "u990011945"
 				}
 
 			}
