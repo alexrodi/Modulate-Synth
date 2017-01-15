@@ -1,0 +1,162 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"rect" : [ 221.0, 163.0, 734.0, 503.0 ],
+		"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"boxes" : [ 			{
+				"box" : 				{
+					"code" : "Param exp2(0, min=0.01);\nParam att2(0, min=0.01);\nParam dec2(0, min=0.01);\nHistory prev2(0);\nHistory segment2(2);\ndelta_5 = delta(in1 != 0);\neq_6 = delta_5 == 1;\nsah_7 = sah(in1, eq_6, 0.5);\nswitch_8 = eq_6 ? 1 : segment2;\nselector_9 = selector(switch_8, 1, 0);\ndelta_10 = delta(switch_8);\nabs_11 = abs(delta_10);\nsah_12 = sah(prev2, abs_11, 0.5);\nclamp_13 = clamp(switch_8, 1, 2);\nselector_14 = selector(clamp_13, att2, dec2);\nrdiv_17 = 1 / (selector_14 * 0.001 * samplerate);\nplusequals_18 = plusequals(rdiv_17, delta_10);\nclamp_19 = clamp(plusequals_18, 0, 1);\nscale_20 = scale(clamp_19, 0, 1, sah_12, selector_9, exp2);\nout1 = scale_20 * sah_7;\ngte_22 = plusequals_18 >= 1;\nadd_23 = switch_8 + gte_22;\nclamp_24 = clamp(add_23, 0, 2);\nprev = scale_20;\nsegment = clamp_24;",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "codebox",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 473.0, 50.0, 401.0, 362.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 473.0, 19.0, 30.0, 22.0 ],
+					"style" : "",
+					"text" : "in 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 473.0, 428.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "out 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "Param exp(0, min=0.01);\nParam att(0, min=0.01);\nParam dec(0, min=0.01);\nHistory prev(0);\nHistory segment(2);\ndelta_5 = delta(in1 != 0);\neq_6 = delta_5 == 1;\nsah_7 = sah(in1, eq_6, 0.5);\nswitch_8 = eq_6 ? 1 : segment;\nselector_9 = selector(switch_8, 1, 0);\ndelta_10 = delta(switch_8);\nabs_11 = abs(delta_10);\nsah_12 = sah(prev, abs_11, 0.5);\nclamp_13 = clamp(switch_8, 1, 2);\nselector_14 = selector(clamp_13, att, dec);\nrdiv_17 = 1 / (selector_14 * 0.001 * samplerate);\nplusequals_18 = plusequals(rdiv_17, delta_10);\nclamp_19 = clamp(plusequals_18, 0, 1);\nscale_20 = scale(clamp_19, 0, 1, sah_12, selector_9, exp);\nout1 = scale_20 * sah_7;\ngte_22 = plusequals_18 >= 1;\nadd_23 = switch_8 + gte_22;\nclamp_24 = clamp(add_23, 0, 2);\nprev = scale_20;\nsegment = clamp_24;",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "codebox",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 35.0, 50.0, 401.0, 362.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 35.0, 19.0, 30.0, 22.0 ],
+					"style" : "",
+					"text" : "in 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 35.0, 428.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "out 1"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+ ]
+	}
+
+}
