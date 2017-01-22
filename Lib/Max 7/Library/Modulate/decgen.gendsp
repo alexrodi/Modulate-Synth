@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 221.0, 163.0, 734.0, 503.0 ],
+		"rect" : [ 116.0, 141.0, 734.0, 503.0 ],
 		"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,7 +39,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"code" : "Param exp2(0, min=0.01);\nParam att2(0, min=0.01);\nParam dec2(0, min=0.01);\nHistory prev2(0);\nHistory segment2(2);\ndelta_5 = delta(in1 != 0);\neq_6 = delta_5 == 1;\nsah_7 = sah(in1, eq_6, 0.5);\nswitch_8 = eq_6 ? 1 : segment2;\nselector_9 = selector(switch_8, 1, 0);\ndelta_10 = delta(switch_8);\nabs_11 = abs(delta_10);\nsah_12 = sah(prev2, abs_11, 0.5);\nclamp_13 = clamp(switch_8, 1, 2);\nselector_14 = selector(clamp_13, att2, dec2);\nrdiv_17 = 1 / (selector_14 * 0.001 * samplerate);\nplusequals_18 = plusequals(rdiv_17, delta_10);\nclamp_19 = clamp(plusequals_18, 0, 1);\nscale_20 = scale(clamp_19, 0, 1, sah_12, selector_9, exp2);\nout1 = scale_20 * sah_7;\ngte_22 = plusequals_18 >= 1;\nadd_23 = switch_8 + gte_22;\nclamp_24 = clamp(add_23, 0, 2);\nprev = scale_20;\nsegment = clamp_24;",
+					"code" : "Param exp2(0, min=0.01);\nParam att2(0, min=0.01);\nParam dec2(0, min=0.01);\nHistory prev2(0);\nHistory segment2(2);\ndelta_5 = delta(in1 != 0);\neq_6 = delta_5 == 1;\nsah_7 = sah(in1, eq_6, 0.5);\nswitch_8 = eq_6 ? 1 : segment2;\nselector_9 = selector(switch_8, 1, 0);\ndelta_10 = delta(switch_8);\nabs_11 = abs(delta_10);\nsah_12 = sah(prev2, abs_11, 0.5);\nclamp_13 = clamp(switch_8, 1, 2);\nselector_14 = selector(clamp_13, att2, dec2);\nrdiv_17 = 1 / (selector_14 * 0.001 * samplerate);\nplusequals_18 = plusequals(rdiv_17, delta_10);\nclamp_19 = clamp(plusequals_18, 0, 1);\nscale_20 = scale(clamp_19, 0, 1, sah_12, selector_9, exp2);\nout1 = scale_20 * sah_7;\ngte_22 = plusequals_18 >= 1;\nadd_23 = switch_8 + gte_22;\nclamp_24 = clamp(add_23, 0, 2);\nprev2 = scale_20;\nsegment2 = clamp_24;",
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
