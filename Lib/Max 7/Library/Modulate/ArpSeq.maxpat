@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 41.0, 293.0, 650.0, 328.0 ],
+		"rect" : [ 66.0, 273.0, 650.0, 328.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -149,7 +149,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.0, 292.0, 128.0, 128.0 ],
+					"patching_rect" : [ 251.75, -5.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.833332, 43.666664, 95.0, 21.0 ],
 					"proportion" : 0.39,
@@ -313,7 +313,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 125.0, 130.0, 640.0, 480.0 ],
+						"rect" : [ 625.0, 215.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -341,6 +341,20 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 499.5, 335.999878, 50.0, 22.0 ],
+									"style" : "",
+									"varname" : "numk"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
@@ -409,13 +423,14 @@
 									"patching_rect" : [ 79.166687, 48.0, 58.0, 22.0 ],
 									"restore" : 									{
 										"live.text[3]" : [ 0.0 ],
+										"numk" : [ 0 ],
 										"tablez" : [ 0, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69 ],
 										"tablez[1]" : [ 0, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u564033249"
+									"varname" : "u142016680"
 								}
 
 							}
@@ -940,12 +955,13 @@
 , 											{
 												"name" : "Luca",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-													"fontname" : [ "Open Sans Semibold" ],
-													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+													"fontname" : [ "Open Sans Semibold" ],
+													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -955,8 +971,7 @@
 														"proportion" : 0.39,
 														"autogradient" : 0
 													}
-,
-													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
+
 												}
 ,
 												"parentstyle" : "",
@@ -1729,7 +1744,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-69", 2 ],
+									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-31", 0 ]
@@ -1760,6 +1775,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-34", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-69", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -1947,12 +1971,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1962,8 +1987,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2696,12 +2720,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2711,8 +2736,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2957,12 +2981,12 @@
 						"live.numbox" : [ 0.0 ],
 						"live.tab" : [ 0.0 ],
 						"live.text[2]" : [ 0.0 ],
-						"umenu" : [ 0 ]
+						"umenu" : [ 3 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u377013707"
+					"varname" : "u050016681"
 				}
 
 			}
@@ -3776,8 +3800,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-115::obj-17" : [ "live.text[24]", "live.text", 0 ],
 			"obj-2" : [ "live.dial[8]", "Res.", 0 ],
+			"obj-115::obj-17" : [ "live.text[24]", "live.text", 0 ],
 			"obj-56" : [ "live.text[103]", "live.text", 0 ],
 			"obj-231" : [ "live.numbox[8]", "live.numbox", 0 ]
 		}
@@ -3819,12 +3843,13 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3834,8 +3859,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
