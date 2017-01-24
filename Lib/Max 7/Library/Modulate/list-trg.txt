@@ -1,7 +1,0 @@
-"Trigger Source", TrigSource 1 540 268 36 0;
-"Manual Trigger", ManualTrigger 1 675 102 84 0;
-"Clock Divider", ClockDiv 1 540 268 34 0;
-"Clock Sequencer", ClkSeq 1 540 268 34 0;
-"Rhythm Sequencer", RythmSeq 1 540 268 120 0;
-"Random Trigger Gate", TrigRandom 1 540 268 56 0;
-"Trigger Delay", TrigDelay 1 540 268 62 0;
