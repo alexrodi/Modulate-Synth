@@ -39,14 +39,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.0, 233.0, 386.0, 49.0 ],
+					"patching_rect" : [ 207.0, 233.0, 260.0, 62.0 ],
 					"style" : "",
-					"text" : ";\rmax launch_browser https://github.com/alexrodi/Modulate-Synth/releases/tag/v1.1.response"
+					"text" : ";\rmax launch_browser https://github.com/alexrodi/Modulate-Synth/releases/download/v1.1.response/Response.dmg"
 				}
 
 			}
@@ -193,7 +193,7 @@
 					"patching_rect" : [ 340.0, 43.0, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u031004510"
+					"varname" : "u858019256"
 				}
 
 			}
@@ -346,6 +346,22 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "bbronze.jpg",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/Lib/Max 7/Library/Modulate",
+				"patcherrelativepath" : ".",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "size.js",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/Lib/Max 7/Library/Modulate",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
