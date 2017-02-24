@@ -18,3 +18,10 @@ function list()
 		
 	}
 }
+
+function bground(a){
+	if(this.patcher.box){
+		this.patcher.box.background = a;
+		this.patcher.parentpatcher.bringtofront(this.patcher.box);
+		}
+}
