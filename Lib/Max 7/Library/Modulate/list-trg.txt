@@ -4,4 +4,6 @@
 "Clock Sequencer", ClkSeq 1 540 268 34 0;
 "Rhythm Sequencer", RythmSeq 1 540 268 120 0;
 "Random Trigger Gate", TrigRandom 1 540 268 56 0;
+"Quantize ", TimeQuant 1 540 268 50 0;
 "Trigger Delay", TrigDelay 1 540 268 62 0;
+"Trigger Multiplier", TrigMult 1 540 134 66 0;
