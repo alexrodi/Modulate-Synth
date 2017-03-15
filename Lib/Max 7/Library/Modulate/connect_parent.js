@@ -13,24 +13,37 @@ var last = 0;
 var g = 0;
 var del = 0;
 var select;
+var clicked = 0;
+var m_in = 0;
+var m_out = 0;
 
 function in(){
-	input = this.patcher.getnamed(arguments[0]);
+	if (clicked == 0){
+	input = this.patcher.getnamed(arguments[0])
+	}
+	else {
+	m_in = this.patcher.getnamed(arguments[0])
+	}
 	in_n = arguments[1];
 	last = 1;
-	if (con == 0){	
-	con = 1;
-	}
-	else if (con == 2){
-	con = 3;
-	}
+		if (con == 0){
+		con = 1;
+		}
+		else if (con == 2){
+		con = 3;
+		}
 }
-		
+
 function out(){
-	output = this.patcher.getnamed(arguments[0]);
+	if (clicked == 0){
+	output = this.patcher.getnamed(arguments[0])
+	}
+	else {
+	m_out = this.patcher.getnamed(arguments[0])
+	}
 	out_n = arguments[1];
 	last = 2;
-	if (con == 0){	
+	if (con == 0){
 	con = 2;
 	}
 	else if (con == 1){
@@ -49,49 +62,58 @@ function list(){
 	dumo(arguments[0],arguments[1]);
 	}
 }
-	
+
 function msg_int(b){
 	if (b == 0){
 	if (del==0){
 		this.patcher.remove(dum);
 		outlet(0, "nopoll");
 		if (con == 3){
-			this.patcher.connect(output, out_n, input, in_n);
+			this.patcher.connect(m_out, out_n, m_in, in_n);
 		}
 		}
 	else if (del==1){
 		outlet(0, "nopoll");
 		if (con == 3){
-			this.patcher.disconnect(output, out_n, input, in_n);
+			this.patcher.disconnect(m_out, out_n, m_in, in_n);
 		}
 		}
-		input = 0;
-		output = 0;
-		}
-	con = last;
+		clicked = 0;
+		m_in = 0;
+		m_out = 0;
+		con = last;
+		del = 0;
+	}
 }
-	
+
 function dumo(x,y){
 	outlet(0, "poll");
-	dum = this.patcher.newdefault(x, y, "sig~");
+	dum = this.patcher.newdefault(x, y, "i");
 	dum.message("sendbox", "hidden", 1);
 	if (last == 1){
-	this.patcher.connect(dum, 0, input, in_n);
+	this.patcher.connect(dum, 0, m_in, in_n);
 	}
 	else if (last == 2){
-	this.patcher.connect(output, out_n, dum, 0);
+	this.patcher.connect(m_out, out_n, dum, 0);
 	}
 }
 
 function clik(a){
-	if (a==0){
+if (a==0){
 	del = 0;
 	g = 1;
 	outlet(0, "bang");
+		}
+else {
+del = 1;
+}
+	if (last == 1) {
+	m_in = input;
 	}
-	else if (a==1){
-	del = 1;
+	else if (last == 2) {
+	m_out = output;
 	}
+clicked = 1;
 }
 
 function offset(){
@@ -112,4 +134,8 @@ function erase(){
 	if (select != 0){
 	this.patcher.message("script", "delete", select);
 	}
+}
+
+function plinecolor(){
+	this.patcher.message("patchlinecolor", arguments[0], arguments[1], arguments[2], arguments[3]);
 }

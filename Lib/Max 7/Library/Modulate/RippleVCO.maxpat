@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 723.0, 494.0, 268.0, 124.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,24 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 54.166626, 523.0, 61.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "sigmsg",
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "js sigmsg"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"focusbordercolor" : [ 0.0, 0.019608, 0.078431, 0.0 ],
@@ -1057,12 +1075,12 @@
 								"name" : "Luca",
 								"default" : 								{
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"fontname" : [ "Open Sans Semibold" ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2220,12 +2238,12 @@
 												"name" : "Luca",
 												"default" : 												{
 													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 													"fontname" : [ "Open Sans Semibold" ],
+													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+													"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3246,12 +3264,12 @@
 								"name" : "Luca",
 								"default" : 								{
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"fontname" : [ "Open Sans Semibold" ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3384,7 +3402,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 243.5, -15.100267, 134.790451, 143.440106 ],
+					"patching_rect" : [ 243.5, -15.100267, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 244.5, -17.100267, 26.5, 28.200535 ]
@@ -3402,7 +3420,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 243.5, -15.100267, 134.790451, 143.440106 ],
+					"patching_rect" : [ 243.5, -15.100267, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 244.5, -17.100267, 26.5, 28.200535 ]
@@ -3420,7 +3438,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 214.0, -14.100267, 134.790451, 143.440106 ],
+					"patching_rect" : [ 214.0, -14.100267, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 213.5, -17.100267, 26.5, 28.200535 ]
@@ -3438,7 +3456,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 214.0, -14.100267, 134.790451, 143.440106 ],
+					"patching_rect" : [ 214.0, -14.100267, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 213.5, -17.100267, 26.5, 28.200535 ]
@@ -3456,7 +3474,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 153.0, -17.100267, 134.790451, 143.440106 ],
+					"patching_rect" : [ 153.0, -17.100267, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 152.0, -17.100267, 26.5, 28.200535 ]
@@ -3474,7 +3492,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 153.0, -17.100267, 134.790451, 143.440106 ],
+					"patching_rect" : [ 153.0, -17.100267, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 152.0, -17.100267, 26.5, 28.200535 ]
@@ -3492,7 +3510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 160.376694, -48.726341, 134.790451, 143.440106 ],
+					"patching_rect" : [ 160.376694, -48.726341, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 121.0, -17.100267, 26.5, 28.200535 ]
@@ -3510,7 +3528,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 160.376694, -43.976341, 134.790451, 143.440106 ],
+					"patching_rect" : [ 160.376694, -43.976341, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 121.0, -17.100267, 26.5, 28.200535 ]
@@ -3528,7 +3546,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 229.0, 19.92647, 134.790451, 143.440106 ],
+					"patching_rect" : [ 229.0, 19.92647, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 57.75, -17.100267, 26.5, 28.200535 ]
@@ -3546,7 +3564,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 146.75, -48.726341, 134.790451, 143.440106 ],
+					"patching_rect" : [ 146.75, -48.726341, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 57.75, -17.100267, 26.5, 28.200535 ]
@@ -3564,7 +3582,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 181.0, -27.976341, 134.790451, 143.440106 ],
+					"patching_rect" : [ 181.0, -27.976341, 143.440109, 152.644822 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 88.5, -17.100267, 26.5, 28.200535 ]
@@ -3582,7 +3600,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 175.188354, -43.976341, 170.397491, 181.33209 ],
+					"patching_rect" : [ 175.188354, -43.976341, 181.332092, 192.968376 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 88.5, -17.100267, 26.5, 28.200535 ]
@@ -3653,7 +3671,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 49.0, 27.0, 146.416962, 229.011145 ],
+					"patching_rect" : [ 49.0, 27.0, 16.75, 26.198718 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 34.185898, 18.0, 28.153846 ]
@@ -3671,7 +3689,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 49.089737, 15.100684, 165.375, 289.40625 ],
+					"patching_rect" : [ 49.089737, 15.100684, 30.410263, 53.21796 ],
 					"pic" : "",
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 35.0, 18.0, 31.5 ]
@@ -4024,7 +4042,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u660030142"
+					"varname" : "u102003336"
 				}
 
 			}
@@ -4069,7 +4087,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.166626, 520.0, 30.0, 30.0 ],
+					"patching_rect" : [ 90.166626, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -4081,7 +4099,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.166626, 520.0, 30.0, 30.0 ],
+					"patching_rect" : [ 54.166626, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -4147,7 +4165,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.666626, 520.0, 30.0, 30.0 ],
+					"patching_rect" : [ 18.666626, 577.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -4334,7 +4352,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
+					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-158", 0 ]
@@ -4676,6 +4694,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-158", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4765,6 +4792,65 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-14" : [ "live.numbox[26]", "live.numbox[15]", 0 ],
+			"obj-58" : [ "live.dial[310]", "Tune", 0 ],
+			"obj-77" : [ "live.dial[444]", "Mix", 0 ],
+			"obj-79" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-29" : [ "live.numbox[27]", "live.numbox[15]", 0 ],
+			"obj-2" : [ "live.dial[360]", "Res.", 0 ],
+			"obj-63" : [ "live.dial[311]", "Tune", 0 ],
+			"obj-52" : [ "live.dial[300]", "Range", 0 ],
+			"obj-11" : [ "live.dial[290]", "Tune", 0 ],
+			"obj-54" : [ "live.dial[361]", "Tune", 0 ],
+			"obj-67" : [ "live.dial[291]", "Angle", 0 ],
+			"obj-66" : [ "live.dial[250]", "Angle", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "bbronze.jpg",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/Lib/Max 7/Library/Modulate",
+				"patcherrelativepath" : ".",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "switch_toggle.png",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/Lib/Max 7/Library/Modulate",
+				"patcherrelativepath" : ".",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delmatrx.gendsp",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/Lib/Max 7/Library/Modulate",
+				"patcherrelativepath" : ".",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "size.js",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/Lib/Max 7/Library/Modulate",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "click.js",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/Lib/Max 7/Library/Modulate",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sigmsg.js",
+				"bootpath" : "~/Documents/Project MODULATE!/Repository/Modulate-Synth/Lib/Max 7/Library/Modulate",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -4787,12 +4873,12 @@
 				"name" : "Luca",
 				"default" : 				{
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"fontname" : [ "Open Sans Semibold" ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
