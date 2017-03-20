@@ -10,5 +10,6 @@
 "Granulate! ", Granulate 1 540 268 98 0;
 "Physics ", Physics 1 540 268 96 0;
 "Modal Synth", ModalBody 1 540 268 154 0;
+"Blowtar ", Blowtar 1 540 268 190 0;
 "Bass Drum", BassDrum 1 540 268 92 0;
 "VST Loader", VSTLoader 1 540 268 78 0;

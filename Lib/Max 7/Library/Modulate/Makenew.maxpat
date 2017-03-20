@@ -39,14 +39,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
+					"id" : "obj-41",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.000122, 18.0, 72.0, 22.0 ],
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 248.000122, 51.0, 36.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 1"
+					"text" : "sel 0"
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 490.000061, 168.0, 29.5, 22.0 ],
+					"patching_rect" : [ 490.000061, 190.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "- 1"
 				}
@@ -70,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 458.75, 168.0, 29.5, 22.0 ],
+					"patching_rect" : [ 458.75, 190.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "- 1"
 				}
@@ -83,7 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 428.250061, 168.0, 29.5, 22.0 ],
+					"patching_rect" : [ 428.250061, 190.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "- 1"
 				}
@@ -96,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 396.500061, 168.0, 29.5, 22.0 ],
+					"patching_rect" : [ 396.500061, 190.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "- 1"
 				}
@@ -109,7 +109,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 364.500061, 168.0, 29.5, 22.0 ],
+					"patching_rect" : [ 364.500061, 190.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "- 1"
 				}
@@ -122,7 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 336.5, 168.0, 29.5, 22.0 ],
+					"patching_rect" : [ 336.5, 190.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "- 1"
 				}
@@ -135,7 +135,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.500061, 18.0, 40.0, 22.0 ],
+					"patching_rect" : [ 248.000122, 23.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "r actv"
 				}
@@ -455,10 +455,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -468,10 +471,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -481,6 +481,7 @@
 								"name" : "dark-night-patch",
 								"default" : 								{
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -490,8 +491,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -556,7 +556,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 390.500061, 363.0, 83.0, 22.0 ],
+					"patching_rect" : [ 390.500061, 385.0, 83.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -577,7 +577,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.500061, 430.0, 87.0, 22.0 ],
+					"patching_rect" : [ 390.500061, 452.0, 87.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend make"
 				}
@@ -590,7 +590,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.500061, 465.0, 82.0, 22.0 ],
+					"patching_rect" : [ 390.500061, 487.0, 82.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "make_mod",
 						"parameter_enable" : 0
@@ -610,7 +610,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 661.5, 226.0, 140.0, 20.0 ],
+					"patching_rect" : [ 661.5, 248.0, 140.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 483.798798, 15.25, 84.0, 20.0 ],
 					"style" : "",
@@ -629,7 +629,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 550.5, 226.0, 140.0, 20.0 ],
+					"patching_rect" : [ 550.5, 248.0, 140.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 386.645203, 15.25, 85.0, 20.0 ],
 					"style" : "",
@@ -648,7 +648,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 441.500061, 226.0, 140.0, 20.0 ],
+					"patching_rect" : [ 441.500061, 248.0, 140.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 290.570007, 15.25, 84.0, 20.0 ],
 					"style" : "",
@@ -667,7 +667,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 325.000061, 226.0, 141.0, 20.0 ],
+					"patching_rect" : [ 325.000061, 248.0, 141.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 194.494827, 15.25, 85.0, 20.0 ],
 					"style" : "",
@@ -686,7 +686,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.500061, 226.0, 143.0, 20.0 ],
+					"patching_rect" : [ 208.500061, 248.0, 143.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.262825, 15.25, 86.0, 20.0 ],
 					"style" : "",
@@ -705,7 +705,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 93.500061, 226.0, 140.0, 20.0 ],
+					"patching_rect" : [ 93.500061, 248.0, 140.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.250061, 15.25, 84.0, 20.0 ],
 					"style" : "",
@@ -942,10 +942,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -955,10 +958,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -968,6 +968,7 @@
 								"name" : "dark-night-patch",
 								"default" : 								{
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -977,8 +978,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1043,7 +1043,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 686.5, 249.0, 73.0, 22.0 ],
+					"patching_rect" : [ 686.5, 271.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1072,7 +1072,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 686.5, 282.5, 100.0, 17.0 ],
+					"patching_rect" : [ 686.5, 304.5, 100.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 483.798798, 16.299999, 84.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1100,7 +1100,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 741.5, 305.5, 42.0, 22.0 ],
+					"patching_rect" : [ 741.5, 327.5, 42.0, 22.0 ],
 					"style" : "",
 					"text" : "r qodr"
 				}
@@ -1116,7 +1116,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 727.0, 333.0, 68.0, 22.0 ],
+					"patching_rect" : [ 727.0, 355.0, 68.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -1353,10 +1353,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1366,10 +1369,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1379,6 +1379,7 @@
 								"name" : "dark-night-patch",
 								"default" : 								{
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1388,8 +1389,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1454,7 +1454,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 575.5, 249.0, 73.0, 22.0 ],
+					"patching_rect" : [ 575.5, 271.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1483,7 +1483,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 575.5, 282.5, 100.0, 17.0 ],
+					"patching_rect" : [ 575.5, 304.5, 100.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 386.645203, 16.299999, 84.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1511,7 +1511,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 630.5, 305.5, 39.0, 22.0 ],
+					"patching_rect" : [ 630.5, 327.5, 39.0, 22.0 ],
 					"style" : "",
 					"text" : "r qtrg"
 				}
@@ -1527,7 +1527,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 616.0, 333.0, 65.0, 22.0 ],
+					"patching_rect" : [ 616.0, 355.0, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -1764,10 +1764,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1777,10 +1780,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1790,6 +1790,7 @@
 								"name" : "dark-night-patch",
 								"default" : 								{
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1799,8 +1800,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1865,7 +1865,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 466.500061, 249.0, 73.0, 22.0 ],
+					"patching_rect" : [ 466.500061, 271.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1894,7 +1894,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 466.500061, 282.5, 100.0, 17.0 ],
+					"patching_rect" : [ 466.500061, 304.5, 100.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 290.570007, 16.299999, 84.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1922,7 +1922,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 521.5, 305.5, 37.0, 22.0 ],
+					"patching_rect" : [ 521.5, 327.5, 37.0, 22.0 ],
 					"style" : "",
 					"text" : "r qcv"
 				}
@@ -1938,7 +1938,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 507.000061, 333.0, 63.0, 22.0 ],
+					"patching_rect" : [ 507.000061, 355.0, 63.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -2175,10 +2175,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2188,10 +2191,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2201,6 +2201,7 @@
 								"name" : "dark-night-patch",
 								"default" : 								{
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -2210,8 +2211,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2276,7 +2276,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 233.500061, 249.0, 73.0, 22.0 ],
+					"patching_rect" : [ 233.500061, 271.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2305,7 +2305,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 233.500061, 282.5, 100.0, 17.0 ],
+					"patching_rect" : [ 233.500061, 304.5, 100.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.262825, 16.299999, 84.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2333,7 +2333,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.5, 305.5, 33.0, 22.0 ],
+					"patching_rect" : [ 288.5, 327.5, 33.0, 22.0 ],
 					"style" : "",
 					"text" : "r qfil"
 				}
@@ -2349,7 +2349,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 274.000061, 333.0, 59.0, 22.0 ],
+					"patching_rect" : [ 274.000061, 355.0, 59.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -2586,10 +2586,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2599,10 +2602,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2612,6 +2612,7 @@
 								"name" : "dark-night-patch",
 								"default" : 								{
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -2621,8 +2622,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2687,7 +2687,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 350.000061, 249.0, 73.0, 22.0 ],
+					"patching_rect" : [ 350.000061, 271.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2716,7 +2716,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 350.000061, 282.5, 100.0, 17.0 ],
+					"patching_rect" : [ 350.000061, 304.5, 100.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 194.494827, 16.299999, 84.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2744,7 +2744,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 405.0, 305.5, 34.0, 22.0 ],
+					"patching_rect" : [ 405.0, 327.5, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "r qfx"
 				}
@@ -2760,7 +2760,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 390.500061, 333.0, 60.0, 22.0 ],
+					"patching_rect" : [ 390.500061, 355.0, 60.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -2997,10 +2997,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3010,10 +3013,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3023,6 +3023,7 @@
 								"name" : "dark-night-patch",
 								"default" : 								{
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -3032,8 +3033,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3098,7 +3098,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 118.500061, 249.0, 73.0, 22.0 ],
+					"patching_rect" : [ 118.500061, 271.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3127,7 +3127,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 118.500061, 282.5, 100.0, 17.0 ],
+					"patching_rect" : [ 118.500061, 304.5, 100.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.250061, 16.299999, 84.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
@@ -3155,7 +3155,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.5, 305.5, 45.0, 22.0 ],
+					"patching_rect" : [ 173.5, 327.5, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "r qaud"
 				}
@@ -3171,7 +3171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 159.000061, 333.0, 71.0, 22.0 ],
+					"patching_rect" : [ 159.000061, 355.0, 71.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -3188,7 +3188,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 168.000122, 84.0, 36.0, 22.0 ],
+					"patching_rect" : [ 168.000122, 106.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 8"
 				}
@@ -3201,7 +3201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 36.000122, 83.0, 60.0, 22.0 ],
+					"patching_rect" : [ 36.000122, 105.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -3214,7 +3214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.000122, 111.0, 57.0, 22.0 ],
+					"patching_rect" : [ 101.000122, 133.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "enable 0"
 				}
@@ -3227,7 +3227,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.000122, 83.0, 39.0, 22.0 ],
+					"patching_rect" : [ 101.000122, 105.0, 39.0, 22.0 ],
 					"style" : "",
 					"text" : "r cl_k"
 				}
@@ -3240,7 +3240,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.000122, 111.0, 90.0, 22.0 ],
+					"patching_rect" : [ 168.000122, 133.0, 90.0, 22.0 ],
 					"style" : "",
 					"text" : "open, enable 1"
 				}
@@ -3253,7 +3253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.000122, 138.333374, 53.0, 22.0 ],
+					"patching_rect" : [ 101.000122, 160.333374, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -3265,7 +3265,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.000122, 168.333374, 90.0, 22.0 ],
+					"patching_rect" : [ 101.000122, 190.333374, 90.0, 22.0 ],
 					"style" : "",
 					"text" : "customkeymidi"
 				}
@@ -3882,10 +3882,13 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3895,10 +3898,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3908,6 +3908,7 @@
 								"name" : "dark-night-patch",
 								"default" : 								{
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -3917,8 +3918,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3983,7 +3983,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 265.000122, 168.0, 51.0, 22.0 ],
+					"patching_rect" : [ 265.000122, 190.0, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4006,7 +4006,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 265.000122, 84.0, 56.0, 23.0 ],
+					"patching_rect" : [ 265.000122, 106.0, 56.0, 23.0 ],
 					"style" : "",
 					"text" : "select 1"
 				}
@@ -4021,7 +4021,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.000122, 111.333374, 40.0, 23.0 ],
+					"patching_rect" : [ 265.000122, 133.333374, 40.0, 23.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -4036,7 +4036,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.000122, 138.333374, 58.0, 23.0 ],
+					"patching_rect" : [ 265.000122, 160.333374, 58.0, 23.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -4049,7 +4049,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 10,
 					"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "int", "int", "int" ],
-					"patching_rect" : [ 265.000122, 55.0, 113.5, 22.0 ],
+					"patching_rect" : [ 265.000122, 77.0, 113.5, 22.0 ],
 					"save" : [ "#N", "menubar", 10, 0, ";", "#X", "about", "About", "Modulate!", ";", "#X", "closeitem", ";", "#X", "file", 7, "-", ";", "#X", "file", 8, "MIDI", "Keyboard", ";", "#X", "menutitle", 5, "Audio", "Sources", ";", "#X", "item", 5, 1, "External", "Audio", ";", "#X", "item", 5, 2, "VCO", ";", "#X", "item", 5, 3, "Noise", ";", "#X", "item", 5, 4, "Wave", "Table", ";", "#X", "item", 5, 5, "Sampler", ";", "#X", "item", 5, 6, "Resampler", ";", "#X", "item", 5, 7, "R303", ";", "#X", "item", 5, 8, "Ripple", "VCO", ";", "#X", "item", 5, 9, "Morphing", ";", "#X", "item", 5, 10, "Granulate!", ";", "#X", "item", 5, 11, "Physics", ";", "#X", "item", 5, 12, "Modal", "Synth", ";", "#X", "item", 5, 13, "Bass", "Drum", ";", "#X", "item", 5, 14, "VST", "Loader", ";", "#X", "menutitle", 6, "Filters", ";", "#X", "item", 6, 1, "Low-Pass", "VCF", ";", "#X", "item", 6, 2, "Low-Pass", "Gate", ";", "#X", "item", 6, 3, "Multi-Mode", "VCF", ";", "#X", "item", 6, 4, "Ladder", "VCF", ";", "#X", "item", 6, 5, "Comb", "VCF", ";", "#X", "item", 6, 6, "VCRF", ";", "#X", "item", 6, 7, "Graphic", "Filter", ";", "#X", "item", 6, 8, "Vocal", "Filter", ";", "#X", "item", 6, 9, "FFT", "Lab", ";", "#X", "item", 6, 10, "Video", "Filter", ";", "#X", "menutitle", 7, "Effects", ";", "#X", "item", 7, 1, "Compressor", ";", "#X", "item", 7, 2, "Ring", "Modulator", ";", "#X", "item", 7, 3, "Dual", "S&H", ";", "#X", "item", 7, 4, "Phazer", ";", "#X", "item", 7, 5, "Delay", ";", "#X", "item", 7, 6, "Stereo", "Delay", ";", "#X", "item", 7, 7, "Echo&Shift", ";", "#X", "item", 7, 8, "Reverb", ";", "#X", "item", 7, 9, "Response", ";", "#X", "item", 7, 10, "Resonate!", ";", "#X", "item", 7, 11, "Distort", ";", "#X", "item", 7, 12, "Waveshaper", ";", "#X", "item", 7, 13, "Moebius", "Tube", ";", "#X", "item", 7, 14, "Grandma's", "Radio", ";", "#X", "menutitle", 8, "CV", "Stuff", ";", "#X", "item", 8, 1, "VC", "LFO", ";", "#X", "item", 8, 2, "Shape", "LFO", ";", "#X", "item", 8, 3, "VC", "ADSR", ";", "#X", "item", 8, 4, "Decay", ";", "#X", "item", 8, 5, "Quad", "Decay", ";", "#X", "item", 8, 6, "Random", ";", "#X", "item", 8, 7, "Bouncing", "CV", ";", "#X", "item", 8, 8, "Random", ";", "#X", "item", 8, 9, "CV", "Sequencer", ";", "#X", "item", 8, 10, "Drum", "Sequencer", ";", "#X", "item", 8, 11, "Graphic", "Step", ";", "#X", "item", 8, 12, "Graphic", "Sequencer", ";", "#X", "item", 8, 13, "Arpeggio!", ";", "#X", "item", 8, 14, "Joy", "Stick", ";", "#X", "item", 8, 15, "Theremin", ";", "#X", "item", 8, 16, "Envelope", "Follower", ";", "#X", "item", 8, 17, "Dual", "Slew", "Limiter", ";", "#X", "item", 8, 18, "MIDI", "to", "CV", ";", "#X", "menutitle", 9, "Trigger", "Stuff", ";", "#X", "item", 9, 1, "Trigger", "Source", ";", "#X", "item", 9, 2, "Manual", "Trigger", ";", "#X", "item", 9, 3, "Clock", "Divider", ";", "#X", "item", 9, 4, "Clock", "Sequencer", ";", "#X", "item", 9, 5, "Rhythm", "Sequencer", ";", "#X", "item", 9, 6, "Random", "Trigger", "Gate", ";", "#X", "item", 9, 7, "Trigger", "Delay", ";", "#X", "menutitle", 10, "Other", ";", "#X", "item", 10, 1, "VCA", ";", "#X", "item", 10, 2, "Dual", "VCA", ";", "#X", "item", 10, 3, "CV", "Panner", ";", "#X", "item", 10, 4, "Mixer", ";", "#X", "item", 10, 5, "Console", "Mixer", ";", "#X", "item", 10, 6, "Attenuator", ";", "#X", "item", 10, 7, "FeedBack", "Box", ";", "#X", "item", 10, 8, "Math", "Operations", ";", "#X", "item", 10, 9, "Analyzer", ";", "#X", "item", 10, 10, "Macro", "Control", ";", "#X", "item", 10, 11, "BEAP", "CV", ";", "#X", "item", 10, 12, "Rack", ";", "#X", "end", ";" ],
 					"style" : "",
 					"text" : "menubar 10"
@@ -4275,15 +4275,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4360,6 +4351,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-41", 1 ]
 				}
 
 			}
@@ -4464,6 +4464,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4509,14 +4518,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-9" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-40::obj-35" : [ "live.button[1]", "live.button", 0 ],
 			"obj-40::obj-6" : [ "live.text", "live.text", 0 ],
 			"obj-25" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-9" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-40::obj-26" : [ "live.button", "live.button", 0 ],
 			"obj-17" : [ "live.menu[3]", "live.menu", 0 ],
 			"obj-21" : [ "live.menu[4]", "live.menu", 0 ],
-			"obj-40::obj-26" : [ "live.button", "live.button", 0 ],
+			"obj-13" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-40::obj-35" : [ "live.button[1]", "live.button", 0 ],
 			"obj-1" : [ "live.menu", "live.menu", 0 ]
 		}
 ,
@@ -4606,10 +4615,13 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4619,10 +4631,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -4632,6 +4641,7 @@
 				"name" : "dark-night-patch",
 				"default" : 				{
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -4641,8 +4651,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
+
 				}
 ,
 				"parentstyle" : "",
