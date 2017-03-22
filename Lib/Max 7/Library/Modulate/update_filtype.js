@@ -6,7 +6,6 @@ var len=0;
 var last=[0,0,0,0,0];
 var selfil=0;
 var change=-1;
-var indx=0;
 
 
 function list (){
@@ -17,19 +16,22 @@ i=0;
 	if (arguments.length!=len){
 		selfil = arguments.length*0.2-1 | 0;
 		outlet(0,selfil);
+		post("nfil", arguments.length*0.2-1);
+		post();
 		}
 
 	else {
 		while (i < arguments.length && d < 1){
 		if (arguments[i]!=last[i]){
 			d = 1;
-			indx = i;
 			}
 			i++;
 		}
-			selfil = indx*0.2 | 0;
+			selfil = (i-1)*0.2 | 0;
 			if (selfil!=change){
 			outlet (0,selfil);
+			post("change", i);
+			post();
 			}
 		}
 
