@@ -3,7 +3,6 @@
 "VC ADSR", ADSR 1 540 268 82 0;
 "Decay", TwoDecay 1 540 268 72 0;
 "Quad Decay", Decay 1 540 268 56 0;
-"Random ", RandCV 1 540 268 58 0;
 "Bouncing CV", CVBounce 1 540 268 56 0;
 "Random", RandCV 1 540 268 58 0;
 "CV Sequencer", CVSeq 1 540 268 110 0;
