@@ -7,6 +7,7 @@
 "R303 ", R303 1 540 268 118 0;
 "Ripple VCO", RippleVCO 1 540 268 124 0;
 "Morphing ", Morphing 1 540 268 98 0;
+"Warped ", Warped 1 540 268 142 0;
 "Granulate! ", Granulate 1 540 268 98 0;
 "Physics ", Physics 1 540 268 96 0;
 "Modal Synth", ModalBody 1 540 268 154 0;
