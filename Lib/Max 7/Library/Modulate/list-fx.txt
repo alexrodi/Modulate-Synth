@@ -2,6 +2,7 @@
 "Ring Modulator", RM 1 540 268 34 0;
 "Dual S&H", SaH 1 540 268 34 0;
 "Phazer ", Phazer 1 540 268 86 0;
+"Shredder ", Shredder 1 540 268 108 0;
 "Delay ", MDelay 1 540 268 82 0;
 "Stereo Delay", StereoDelay 1 540 268 98 0;
 "Echo&Shift ", EchoShift 1 540 268 122 0;
