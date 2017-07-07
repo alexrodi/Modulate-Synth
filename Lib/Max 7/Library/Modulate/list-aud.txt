@@ -9,6 +9,7 @@
 "Morphing ", Morphing 1 540 268 98 0;
 "Warped ", Warped 1 540 268 142 0;
 "Granulate! ", Granulate 1 540 268 98 0;
+"Pulsar ", Pulsar 1 540 268 100 0;
 "Physics ", Physics 1 540 268 96 0;
 "Modal Synth", ModalBody 1 540 268 154 0;
 "Blowtar ", Blowtar 1 540 268 190 0;
