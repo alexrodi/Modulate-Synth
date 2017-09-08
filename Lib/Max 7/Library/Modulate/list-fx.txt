@@ -3,11 +3,13 @@
 "Dual S&H", SaH 1 540 268 34 0;
 "Phazer ", Phazer 1 540 268 86 0;
 "Shredder ", Shredder 1 540 268 108 0;
+"Shards ", Shards 1 540 268 84 0;
 "Delay ", MDelay 1 540 268 82 0;
 "Stereo Delay", StereoDelay 1 540 268 98 0;
 "Echo&Shift ", EchoShift 1 540 268 122 0;
 "Reverb ", Reverb 1 540 268 108 0;
 "Response ", ConRev 1 540 268 78 0;
+"Freezer ", Freezer 1 540 86 78 0;
 "Resonate! ", Resonate 1 540 268 118 0;
 "Distort ", Distort 1 540 268 70 0;
 "Waveshaper ", Waveshaper 1 540 268 78 0;
