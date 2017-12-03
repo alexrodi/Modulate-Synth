@@ -68,13 +68,13 @@ function msg_int(b){
 	if (del==0){
 		this.patcher.remove(dum);
 		outlet(0, "nopoll");
-		if (con == 3){
+		if (con == 3 && m_out != 0 && m_in !=0){
 			this.patcher.connect(m_out, out_n, m_in, in_n);
 		}
 		}
 	else if (del==1){
 		outlet(0, "nopoll");
-		if (con == 3){
+		if (con == 3 && m_out != 0 && m_in !=0){
 			this.patcher.disconnect(m_out, out_n, m_in, in_n);
 		}
 		}
