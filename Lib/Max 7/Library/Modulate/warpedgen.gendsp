@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1212.0, 683.0 ],
+		"rect" : [ 34.0, 79.0, 754.0, 683.0 ],
 		"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -549,7 +549,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 153.0, 273.0, 988.0, 683.0 ],
+						"rect" : [ 227.0, 369.0, 988.0, 683.0 ],
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -716,12 +716,10 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+									"fontname" : [ "Open Sans Semibold" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -732,7 +730,9 @@
 										"autogradient" : 0
 									}
 ,
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -741,8 +741,6 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -752,7 +750,9 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
 								}
 ,
 								"parentstyle" : "",
@@ -761,14 +761,14 @@
 , 							{
 								"name" : "default_style",
 								"newobj" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"toggle" : 								{
-									"bgcolor" : [ 0.636487, 0.648652, 0.683149, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.636487, 0.648652, 0.683149, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -783,14 +783,14 @@
 , 							{
 								"name" : "default_style-1",
 								"newobj" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"toggle" : 								{
-									"bgcolor" : [ 0.636487, 0.648652, 0.683149, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.636487, 0.648652, 0.683149, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -804,19 +804,68 @@
 							}
 , 							{
 								"name" : "master_style",
-								"attrui" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+								"newobj" : 								{
+									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
-								"newobj" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								"slider" : 								{
+									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
+								}
+,
+								"ezadc~" : 								{
+									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"button" : 								{
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+									"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
+								}
+,
+								"kslider" : 								{
+									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"toggle" : 								{
+									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"ezdac~" : 								{
+									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"gain~" : 								{
+									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
+								}
+,
+								"multislider" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"attrui" : 								{
+									"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"function" : 								{
+									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
@@ -826,57 +875,8 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
-								}
 ,
-								"ezdac~" : 								{
-									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"toggle" : 								{
-									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"ezadc~" : 								{
-									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"slider" : 								{
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
-								}
-,
-								"multislider" : 								{
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"function" : 								{
-									"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"button" : 								{
-									"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
-								}
-,
-								"gain~" : 								{
-									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
-								}
-,
-								"kslider" : 								{
-									"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"umenu" : 								{
@@ -1104,7 +1104,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "if (in1<1){\r\n\t\r\n\tdob=in3*-2+1;\r\n\tinv=1-in2;\r\n\t\r\n\tif (dob<0){\r\n\tout1=in2<abs(dob) ? in2 : inv;\r\n\t}\r\n\telse{\r\n\tout1=in2<(1-abs(dob)) ? inv : in2;\r\n\t}\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<2){\r\n\t\r\n\tpn=in2*2-1;\r\n\tinv=1-in2;\r\n\tout1=in3<abs(pn) ? in2 : inv;\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<3){\r\n\r\n\tranged= in2*scale(in3, 0, 1, 1, 32, 4);\r\n\tout1= ranged ? ranged : 0;\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<4){\r\n\r\n\tout1=1-triangle(in2,in3);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<5){\r\n\t\r\n\tout1=mix(in2, (cos(in2*9.4245+3.1415))*0.5+0.5, in3);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<6){\r\n\t\r\n\tout1=mix(in2, (cos(in2*15.7075+3.1415))*0.5+0.5, in3);\r\n\t\r\n}\r\n\t\r\nelse if (in1<7){\r\n\t\r\n\tout1=mix(in2, sin(in2*3.1)+(1/sqrt(1+cosh(in2)))*0.15*sin(100*in3*in2), in3);\r\n\t\r\n\t}\r\n\t\r\n\t\t\r\nelse if (in1<8){\r\n\t\r\n\tout1=mix(in2, abs((in2*(cycle(in3*in4+in4))) % 1), in3);\r\n\t\r\n\t}\r\n\r\n\t\r\nelse if (in1<9){\r\n\t\r\n\tif (in2<0.5){\r\n\t\tout1=(in2*(in3*8+1))% 0.5;\r\n\t\t}\r\n\telse {\r\n\t\tout1=(((in2-1)*(in3*8+1))% 0.5)+ 1;\r\n\t\t}\r\n\t\r\n\t}\r\n\r\nelse if (in1<10) {\r\n\t\r\n\tout1= mix(in2, (in2*(in3*7+1)%1), in3 );\n\t\r\n\t}\r\n\r\nelse if (in1<11) {\r\n\t\r\n\tscalectr = scale(in3, 0., 1.023, 1024., 1., 0.04);\n\tclippz = clamp(in2, -1, 1);\r\n\tcond = clippz > 0.;\r\n\t\n\tcrushed, indx = peek(quant, (abs(clippz) * scalectr), 0, channels=1);\n\t\n\tout1 = (crushed * (cond + ((cond == 0.) * -1.))) * (1024/scalectr);\r\n\t\r\n\t}\r\n\t\r\n\t\r\nelse if (in1<12){\r\n\r\n\tmod=clip((1-in3)*0.5, 0.003, 0.997);\r\n\tout1 = in2 < mod ? ((0.5 / mod) * in2) : ((0.5 / (1-mod)) * (in2 - mod) + 0.5);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<13){\r\n\r\n\tmod=clip((in3*0.5+0.5), 0.003, 0.997);\r\n\tout1 = in2 < mod ? ((0.5 / mod) * in2) : ((0.5 / (1 - mod)) * (in2 - mod) + 0.5);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<14){\r\n\r\n\tmod=clip(in3, 0.003, 0.997);\r\n\tout1 = in2 < mod ? ((0.5 / mod) * in2) : ((0.5 / (1 - mod)) * (in2 - mod) + 0.5);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<15){\r\n\t\r\n\tmodcnt=0;\r\n\tranged = clamp(in3, 0.001, 0.999);\r\n\tcnt = scale(ranged, 0, 1, 0, -1000, 0.0001);\r\n\r\n\tif (cnt>0){\r\n\t\tmodcnt=(1000-cnt);\r\n\t}\r\n\telse{\r\n\t\tmodcnt=(-1000-cnt);\r\n\t}\r\n\r\n\tif (modcnt>0){\r\n\t\tk = modcnt;\r\n\t}\r\n\telse {\r\n\t\tk = (modcnt - 1);\r\n\t}\r\n\t\r\n\trangpz = in2*2-1;\r\n\tpzabs = abs(rangpz);\r\n\t\r\n\tmodpz = (((pzabs*k)/((k-pzabs)+1))*sign(rangpz))*0.5+0.5;\r\n\t\r\n\tout1 = mix(in2, modpz, ranged);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<16){\r\n\t\r\n\tmodcnt=0;\r\n\tranged = clamp(in3, 0.001, 0.999);\r\n\tcnt = scale(ranged, 0, 1, 0, 1000, 0.0001);\r\n\r\n\tif (cnt>0){\r\n\t\tmodcnt=(1000-cnt);\r\n\t}\r\n\telse{\r\n\t\tmodcnt=(-1000-cnt);\r\n\t}\r\n\r\n\tif (modcnt>0){\r\n\t\tk = modcnt;\r\n\t}\r\n\telse {\r\n\t\tk = (modcnt - 1);\r\n\t}\r\n\t\r\n\trangpz = in2*2-1;\r\n\tpzabs = abs(rangpz);\r\n\t\r\n\tmodpz = (((pzabs*k)/((k-pzabs)+1))*sign(rangpz))*0.5+0.5;\r\n\t\r\n\tout1 = mix(in2, modpz, ranged);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<17){\r\n\t\r\n\tmodcnt=0;\r\n\tranged = clamp(in3, 0.001, 0.999) * 2 - 1;\n\tcont = abs(ranged);\r\n\tcnt = scale(cont, 0, 1, 0, 1000, 0.0001) * sign(ranged);\r\n\r\n\tif (cnt>0){\r\n\t\tmodcnt=(1000-cnt);\r\n\t}\r\n\telse{\r\n\t\tmodcnt=(-1000-cnt);\r\n\t}\r\n\r\n\tif (modcnt>0){\r\n\t\tk = modcnt;\r\n\t}\r\n\telse {\r\n\t\tk = (modcnt - 1);\r\n\t}\r\n\t\r\n\trangpz = in2*2-1;\r\n\tpzabs = abs(rangpz);\r\n\t\r\n\tmodpz = (((pzabs*k)/((k-pzabs)+1))*sign(rangpz))*0.5+0.5;\r\n\t\r\n\tout1 = mix(in2, modpz, cont);\r\n\t\r\n\t}\r\n\r\n\t\r\nelse if (in1<18) {\r\n\t\r\n\tout1=scale(in2, 0, 1, 0, 1, scale(in3, 0, 1, 1, 16, 2));\r\n\t\r\n\t}\r\n\r\nelse if (in1<19) {\r\n\t\r\n\tout1=scale(in2, 0, 1, 0, 1, 1-in3*0.84);\r\n\t\r\n\t}\r\n\t\r\nelse {\r\n\t\r\n\tout1=scale(in2, 0, 1, 0, 1, scale(in3, 0, 1, 0.16, 16, 4.3));\r\n\t\r\n\t}\r\n\r\n",
+					"code" : "if (in1<1){\r\n\t\r\n\tdob=in3*-2+1;\r\n\tinv=1-in2;\r\n\t\r\n\tif (dob<0){\r\n\tout1=in2<abs(dob) ? in2 : inv;\r\n\t}\r\n\telse{\r\n\tout1=in2<(1-abs(dob)) ? inv : in2;\r\n\t}\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<2){\r\n\t\r\n\tpn=in2*2-1;\r\n\tinv=1-in2;\r\n\tout1=in3<abs(pn) ? in2 : inv;\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<3){\r\n\r\n\tranged= in2*scale(in3, 0, 1, 1, 32, 4);\r\n\tout1= clamp(ranged, 0, 1);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<4){\r\n\r\n\tout1=1-triangle(in2,in3);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<5){\r\n\t\r\n\tout1=mix(in2, (cos(in2*9.4245+3.1415))*0.5+0.5, in3);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<6){\r\n\t\r\n\tout1=mix(in2, (cos(in2*15.7075+3.1415))*0.5+0.5, in3);\r\n\t\r\n}\r\n\t\r\nelse if (in1<7){\r\n\t\r\n\tout1=mix(in2, sin(in2*3.1)+(1/sqrt(1+cosh(in2)))*0.15*sin(100*in3*in2), in3);\r\n\t\r\n\t}\r\n\t\r\n\t\t\r\nelse if (in1<8){\r\n\t\r\n\tout1=mix(in2, abs((in2*(cycle(in3*in4+in4))) % 1), in3);\r\n\t\r\n\t}\r\n\r\n\t\r\nelse if (in1<9){\r\n\t\r\n\tif (in2<0.5){\r\n\t\tout1=(in2*(in3*8+1))% 0.5;\r\n\t\t}\r\n\telse {\r\n\t\tout1=(((in2-1)*(in3*8+1))% 0.5)+ 1;\r\n\t\t}\r\n\t\r\n\t}\r\n\r\nelse if (in1<10) {\r\n\t\r\n\tout1= mix(in2, (in2*(in3*7+1)%1), in3 );\n\t\r\n\t}\r\n\r\nelse if (in1<11) {\r\n\t\r\n\tscalectr = scale(in3, 0., 1.023, 1024., 1., 0.04);\n\tclippz = clamp(in2, -1, 1);\r\n\tcond = clippz > 0.;\r\n\t\n\tcrushed, indx = peek(quant, (abs(clippz) * scalectr), 0, channels=1);\n\t\n\tout1 = (crushed * (cond + ((cond == 0.) * -1.))) * (1024/scalectr);\r\n\t\r\n\t}\r\n\t\r\n\t\r\nelse if (in1<12){\r\n\r\n\tmod=clip((1-in3)*0.5, 0.003, 0.997);\r\n\tout1 = in2 < mod ? ((0.5 / mod) * in2) : ((0.5 / (1-mod)) * (in2 - mod) + 0.5);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<13){\r\n\r\n\tmod=clip((in3*0.5+0.5), 0.003, 0.997);\r\n\tout1 = in2 < mod ? ((0.5 / mod) * in2) : ((0.5 / (1 - mod)) * (in2 - mod) + 0.5);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<14){\r\n\r\n\tmod=clip(in3, 0.003, 0.997);\r\n\tout1 = in2 < mod ? ((0.5 / mod) * in2) : ((0.5 / (1 - mod)) * (in2 - mod) + 0.5);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<15){\r\n\t\r\n\tmodcnt=0;\r\n\tranged = clamp(in3, 0.001, 0.999);\r\n\tcnt = scale(ranged, 0, 1, 0, -1000, 0.0001);\r\n\r\n\tif (cnt>0){\r\n\t\tmodcnt=(1000-cnt);\r\n\t}\r\n\telse{\r\n\t\tmodcnt=(-1000-cnt);\r\n\t}\r\n\r\n\tif (modcnt>0){\r\n\t\tk = modcnt;\r\n\t}\r\n\telse {\r\n\t\tk = (modcnt - 1);\r\n\t}\r\n\t\r\n\trangpz = in2*2-1;\r\n\tpzabs = abs(rangpz);\r\n\t\r\n\tmodpz = (((pzabs*k)/((k-pzabs)+1))*sign(rangpz))*0.5+0.5;\r\n\t\r\n\tout1 = mix(in2, modpz, ranged);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<16){\r\n\t\r\n\tmodcnt=0;\r\n\tranged = clamp(in3, 0.001, 0.999);\r\n\tcnt = scale(ranged, 0, 1, 0, 1000, 0.0001);\r\n\r\n\tif (cnt>0){\r\n\t\tmodcnt=(1000-cnt);\r\n\t}\r\n\telse{\r\n\t\tmodcnt=(-1000-cnt);\r\n\t}\r\n\r\n\tif (modcnt>0){\r\n\t\tk = modcnt;\r\n\t}\r\n\telse {\r\n\t\tk = (modcnt - 1);\r\n\t}\r\n\t\r\n\trangpz = in2*2-1;\r\n\tpzabs = abs(rangpz);\r\n\t\r\n\tmodpz = (((pzabs*k)/((k-pzabs)+1))*sign(rangpz))*0.5+0.5;\r\n\t\r\n\tout1 = mix(in2, modpz, ranged);\r\n\t\r\n\t}\r\n\t\r\nelse if (in1<17){\r\n\t\r\n\tmodcnt=0;\r\n\tranged = clamp(in3, 0.001, 0.999) * 2 - 1;\n\tcont = abs(ranged);\r\n\tcnt = scale(cont, 0, 1, 0, 1000, 0.0001) * sign(ranged);\r\n\r\n\tif (cnt>0){\r\n\t\tmodcnt=(1000-cnt);\r\n\t}\r\n\telse{\r\n\t\tmodcnt=(-1000-cnt);\r\n\t}\r\n\r\n\tif (modcnt>0){\r\n\t\tk = modcnt;\r\n\t}\r\n\telse {\r\n\t\tk = (modcnt - 1);\r\n\t}\r\n\t\r\n\trangpz = in2*2-1;\r\n\tpzabs = abs(rangpz);\r\n\t\r\n\tmodpz = (((pzabs*k)/((k-pzabs)+1))*sign(rangpz))*0.5+0.5;\r\n\t\r\n\tout1 = mix(in2, modpz, cont);\r\n\t\r\n\t}\r\n\r\n\t\r\nelse if (in1<18) {\r\n\t\r\n\tout1=scale(in2, 0, 1, 0, 1, scale(in3, 0, 1, 1, 16, 2));\r\n\t\r\n\t}\r\n\r\nelse if (in1<19) {\r\n\t\r\n\tout1=scale(in2, 0, 1, 0, 1, 1-in3*0.84);\r\n\t\r\n\t}\r\n\t\r\nelse {\r\n\t\r\n\tout1=scale(in2, 0, 1, 0, 1, scale(in3, 0, 1, 0.16, 16, 4.3));\r\n\t\r\n\t}\r\n\r\n",
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1719,12 +1719,10 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"fontname" : [ "Open Sans Semibold" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1735,7 +1733,9 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1744,8 +1744,6 @@
 , 			{
 				"name" : "dark-night-patch",
 				"default" : 				{
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -1755,7 +1753,9 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1764,14 +1764,14 @@
 , 			{
 				"name" : "default_style",
 				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"toggle" : 				{
-					"bgcolor" : [ 0.636487, 0.648652, 0.683149, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"bgcolor" : [ 0.636487, 0.648652, 0.683149, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
@@ -1786,14 +1786,14 @@
 , 			{
 				"name" : "default_style-1",
 				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"toggle" : 				{
-					"bgcolor" : [ 0.636487, 0.648652, 0.683149, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"bgcolor" : [ 0.636487, 0.648652, 0.683149, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
@@ -1807,19 +1807,68 @@
 			}
 , 			{
 				"name" : "master_style",
-				"attrui" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+				"newobj" : 				{
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				"slider" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
+				}
+,
+				"ezadc~" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"button" : 				{
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
+				}
+,
+				"kslider" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"toggle" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"ezdac~" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"gain~" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
+				}
+,
+				"multislider" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"attrui" : 				{
+					"bgcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"function" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
@@ -1829,57 +1878,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
-				}
 ,
-				"ezdac~" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"toggle" : 				{
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"ezadc~" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"slider" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"function" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"button" : 				{
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"color" : [ 1.0, 0.95051, 0.0, 1.0 ]
-				}
-,
-				"gain~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.861448, 0.16921, 1.0 ]
-				}
-,
-				"kslider" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
