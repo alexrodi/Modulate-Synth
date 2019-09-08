@@ -228,7 +228,7 @@
 							"parameter_shortname" : "PW",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -263,7 +263,7 @@
 							"parameter_shortname" : "live.slider",
 							"parameter_type" : 0,
 							"parameter_mmax" : 0.5,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -302,7 +302,7 @@
 							"parameter_enum" : [ "0.25", "0.5", "0.75", "1", "1.25", "1.5", "1.75", "2" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 3.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -347,7 +347,7 @@
 							"parameter_shortname" : "live.numbox[1]",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -380,7 +380,7 @@
 							"parameter_type" : 0,
 							"parameter_mmin" : 10.0,
 							"parameter_mmax" : 300.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.5
 						}
 
@@ -417,7 +417,7 @@
 							"parameter_type" : 0,
 							"parameter_mmin" : 10.0,
 							"parameter_mmax" : 300.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.5
 						}
 
@@ -454,7 +454,7 @@
 							"parameter_type" : 0,
 							"parameter_mmin" : 10.0,
 							"parameter_mmax" : 300.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.5
 						}
 
@@ -491,7 +491,7 @@
 							"parameter_type" : 0,
 							"parameter_mmin" : 10.0,
 							"parameter_mmax" : 300.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.5
 						}
 
@@ -532,7 +532,7 @@
 							"parameter_mmax" : 0.1662,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -567,7 +567,7 @@
 							"parameter_enum" : [ "-4", "-3", "-2", "-1", "0", "+1", "+2", "+3" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 4 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -603,7 +603,7 @@
 							"parameter_mmax" : 880.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 440.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}

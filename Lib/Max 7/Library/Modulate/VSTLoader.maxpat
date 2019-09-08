@@ -292,7 +292,7 @@
 							"parameter_mmax" : 128.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_steps" : 128
 						}
 

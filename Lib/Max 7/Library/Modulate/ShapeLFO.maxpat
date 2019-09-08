@@ -240,7 +240,7 @@
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_enum" : [ "Point", "Curve", "Delete" ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -301,7 +301,7 @@
 							"parameter_type" : 2,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7" ],
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_speedlim" : 0.0
 						}
 

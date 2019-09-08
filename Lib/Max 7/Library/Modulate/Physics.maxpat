@@ -272,7 +272,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -312,7 +312,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -352,7 +352,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -392,7 +392,7 @@
 							"parameter_mmax" : 0.0255,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -431,7 +431,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -470,7 +470,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -509,7 +509,7 @@
 							"parameter_mmax" : 0.8,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -548,7 +548,7 @@
 							"parameter_mmax" : 0.4055,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.38 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 0.3
 						}
 
@@ -592,7 +592,7 @@
 							"parameter_mmax" : 5000.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 440 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 4.0
 						}
 
@@ -633,7 +633,7 @@
 							"parameter_mmax" : 0.5,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 

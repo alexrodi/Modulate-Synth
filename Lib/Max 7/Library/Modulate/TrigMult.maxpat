@@ -121,7 +121,7 @@
 							"parameter_mmax" : 15.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 8 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}

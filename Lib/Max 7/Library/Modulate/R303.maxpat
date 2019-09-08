@@ -157,7 +157,7 @@
 							"parameter_enum" : [ "Int", "Mix", "Ext" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -194,7 +194,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -227,7 +227,7 @@
 							"parameter_mmax" : 1.25,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 1.5
 						}
 
@@ -264,7 +264,7 @@
 							"parameter_mmax" : 3000.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.5
 						}
 
@@ -302,7 +302,7 @@
 							"parameter_mmax" : 5000.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 440 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 5.0
 						}
 
@@ -338,7 +338,7 @@
 							"parameter_mmax" : 5000.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -374,7 +374,7 @@
 							"parameter_mmax" : 5000.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -410,7 +410,7 @@
 							"parameter_mmax" : 2.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 1.5
 						}
 
@@ -446,7 +446,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 0.5
 						}
 
@@ -483,7 +483,7 @@
 							"parameter_mmax" : 20000.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 3.0
 						}
 
@@ -3897,7 +3897,7 @@
 							"parameter_type" : 2,
 							"parameter_enum" : [ "sine", "saw" ],
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -4020,7 +4020,7 @@
 							"parameter_type" : 2,
 							"parameter_enum" : [ "sine", "saw" ],
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}

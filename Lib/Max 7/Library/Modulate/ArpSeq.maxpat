@@ -624,7 +624,7 @@
 							"parameter_shortname" : "Res.",
 							"parameter_type" : 2,
 							"parameter_enum" : [ "Rec", "Add", "Run" ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -672,7 +672,7 @@
 							"parameter_type" : 0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_steps" : 128
 						}
 

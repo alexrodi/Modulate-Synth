@@ -133,7 +133,7 @@
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_enum" : [ "Amp", "Pitch", "Pos" ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -161,7 +161,7 @@
 							"parameter_mmin" : 1.0,
 							"parameter_mmax" : 64.0,
 							"parameter_initial" : [ 8.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_steps" : 64
 						}
 
@@ -189,7 +189,7 @@
 							"parameter_type" : 0,
 							"parameter_mmin" : 2.0,
 							"parameter_initial" : [ 80 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_steps" : 126
 						}
 
@@ -218,7 +218,7 @@
 							"parameter_mmin" : 1.0,
 							"parameter_mmax" : 126.0,
 							"parameter_initial" : [ 36 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_steps" : 126
 						}
 
@@ -252,7 +252,7 @@
 							"parameter_mmin" : 0.001,
 							"parameter_mmax" : 0.999,
 							"parameter_initial" : [ 0.5 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}

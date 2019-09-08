@@ -7,6 +7,7 @@
 "Delay ", MDelay 1 540 268 82 0;
 "Stereo Delay", StereoDelay 1 540 268 98 0;
 "Echo&Shift ", EchoShift 1 540 268 122 0;
+"Spectral Delay", SpecD 1 540 268 84 0;
 "Reverb ", Reverb 1 540 268 108 0;
 "Response ", ConRev 1 540 268 78 0;
 "Freezer ", Freezer 1 540 86 78 0;

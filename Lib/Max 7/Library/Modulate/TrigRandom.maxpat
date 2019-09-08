@@ -79,7 +79,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 100.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_steps" : 100
 						}
 

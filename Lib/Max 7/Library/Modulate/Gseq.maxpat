@@ -297,7 +297,7 @@
 							"parameter_mmax" : 16.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 3 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -364,7 +364,7 @@
 							"parameter_mmax" : 16.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 16 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_steps" : 16
 						}
 
@@ -395,7 +395,7 @@
 							"parameter_mmax" : 64.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 16 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_steps" : 63
 						}
 

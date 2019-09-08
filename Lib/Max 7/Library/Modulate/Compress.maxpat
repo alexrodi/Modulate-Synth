@@ -176,7 +176,7 @@
 							"parameter_mmax" : 2.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -256,7 +256,7 @@
 							"parameter_mmax" : 2.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -295,7 +295,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -331,7 +331,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -367,7 +367,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -403,7 +403,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -442,7 +442,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}

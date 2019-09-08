@@ -127,7 +127,7 @@
 							"parameter_shortname" : "live.slider",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -316,7 +316,7 @@
 							"parameter_shortname" : "CV",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -352,7 +352,7 @@
 							"parameter_shortname" : "CV",
 							"parameter_type" : 0,
 							"parameter_mmax" : 0.999,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -387,7 +387,7 @@
 							"parameter_type" : 0,
 							"parameter_mmin" : 0.001,
 							"parameter_mmax" : 1000.0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -423,7 +423,7 @@
 							"parameter_shortname" : "CV",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1000.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -459,7 +459,7 @@
 							"parameter_shortname" : "CV",
 							"parameter_type" : 0,
 							"parameter_mmax" : 36.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -493,7 +493,7 @@
 							"parameter_shortname" : "Confusion",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -556,7 +556,7 @@
 							"parameter_shortname" : "Feed",
 							"parameter_type" : 0,
 							"parameter_mmax" : 0.999,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -593,7 +593,7 @@
 							"parameter_mmax" : 36.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -629,7 +629,7 @@
 							"parameter_type" : 0,
 							"parameter_mmin" : 0.01,
 							"parameter_mmax" : 1.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 0.5
 						}
 

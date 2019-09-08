@@ -135,7 +135,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.5 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -173,7 +173,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -207,7 +207,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -243,7 +243,7 @@
 							"parameter_mmin" : -4.0,
 							"parameter_mmax" : 3.0,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -277,7 +277,7 @@
 							"parameter_mmax" : 880.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 440.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -2747,7 +2747,7 @@
 							"parameter_type" : 2,
 							"parameter_enum" : [ "sine", "saw", "square", "random" ],
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}

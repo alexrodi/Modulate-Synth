@@ -429,7 +429,7 @@
 							"parameter_mmax" : 0.158,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.111282 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 0.5
 						}
 

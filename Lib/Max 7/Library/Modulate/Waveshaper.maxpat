@@ -80,7 +80,7 @@
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_enum" : [ "Point", "Curve", "Delete" ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}

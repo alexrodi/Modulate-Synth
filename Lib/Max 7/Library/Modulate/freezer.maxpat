@@ -60,7 +60,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 0.05
 						}
 
@@ -403,7 +403,7 @@
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_mmax" : 0.25,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 3.0
 						}
 
@@ -453,7 +453,7 @@
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_mmax" : 512.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -668,7 +668,7 @@
 							"parameter_mmax" : 512.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 4.0
 						}
 
@@ -778,7 +778,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -2491,7 +2491,7 @@
 							"parameter_mmax" : 0.25,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -2539,7 +2539,7 @@
 							"parameter_shortname" : "live.slider",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1.0,
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 

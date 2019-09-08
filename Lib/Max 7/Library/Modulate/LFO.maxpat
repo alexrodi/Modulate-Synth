@@ -287,7 +287,7 @@
 							"parameter_mmax" : 1000.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 3.0
 						}
 
@@ -381,7 +381,7 @@
 							"parameter_enum" : [ "M", "H", "L" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -417,7 +417,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.03333 ],
-							"parameter_unitstyle" : 0,
+							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 2.0
 						}
 
@@ -3772,7 +3772,7 @@
 							"parameter_type" : 2,
 							"parameter_enum" : [ "sine", "saw", "square", "random", "d" ],
 							"parameter_initial" : [ 0.0 ],
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
