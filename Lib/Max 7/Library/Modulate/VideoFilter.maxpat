@@ -7270,7 +7270,8 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+	"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 	}
 
 }
